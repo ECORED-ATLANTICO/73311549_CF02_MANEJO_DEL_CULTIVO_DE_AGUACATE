@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[ https://ecored-atlantico.github.io/73311549_CF02_MANEJO_DEL_CULTIVO_DE_AGUACATE/]( https://ecored-atlantico.github.io/73311549_CF02_MANEJO_DEL_CULTIVO_DE_AGUACATE/)
 
 #
 
@@ -38,4 +38,6 @@ npm run build
 
 ### Linteo y arreglo de sintaxis de archivos
 
+```
+npm run lint
 ```

@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Manejo del cultivo de aguacate, cosecha y postcosecha.'
