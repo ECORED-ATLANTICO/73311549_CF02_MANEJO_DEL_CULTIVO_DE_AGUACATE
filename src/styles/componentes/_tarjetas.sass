@@ -20,6 +20,29 @@
   &--azul
     background-color: $color-sistema-e
 
+  &--color-contenido-terciario-10
+    background-color: $color-primario-10
+    &:active, &:focus, &:hover
+      background-color: $color-primario-20
+
+  &--fondo__slider
+    background-image: url('../assets/curso/temas/tema_1/img_11.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    padding: 10px 15px
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-contenido
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-contenido
+    .slyder-a__bullets__item--active
+      background-color: $color-secundario !important
+      border-color: $color-secundario !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-secundario, 15%)
+      border: 1px solid lighten($color-secundario, 15%)
+
   &--boton
     border-radius: 20px
     background-color: $color-sistema-h

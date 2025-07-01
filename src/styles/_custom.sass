@@ -43,3 +43,43 @@
 @media (min-width: 1025px)
   .banner-principal__row .banner-principal__img
     width: 460px
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_1/img_12.png') !important
+      background-repeat: no-repeat
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_12.png') !important
+      background-repeat: no-repeat
+
+// acordion
+.acordion__activo
+  background-color: $color-primario-20 !important
+  .acordion__accion__btn--a
+    background-color: $color-primario-10 !important
+
+.acordion__accion__btn--a 
+  background-color: $color-acento-botones !important
