@@ -21,6 +21,16 @@
         .h2(data-aos="fade-right") 4.1 Clasificación y empaque
       .mb-3
 
+      .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema_1/img_2.svg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Una vez el aguacate llega al centro de acopio o planta de poscosecha, debe pasar por un proceso de clasificación, el cual tiene como finalidad separar los frutos según criterios de calidad y características físicas. 
+          p.mb-0 Este proceso puede realizarse de forma manual o mediante sistemas semiautomatizados, y debe llevarse a cabo en áreas limpias, con iluminación adecuada y personal capacitado. 
+          p.mb-0 Los criterios más comunes de clasificación incluyen:
+
+
 
 
 </template>
