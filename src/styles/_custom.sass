@@ -54,13 +54,27 @@
       content: ''
       position: absolute
       margin: 0
-      top: 0px
+      top: 290px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
       background-image: url('../assets/curso/temas/tema_1/img_12.png') !important
       background-repeat: no-repeat
   &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 290px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_1/img_13.png') !important
+      background-repeat: no-repeat
+  &_3
     position: relative
     h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
       position: relative
@@ -77,26 +91,28 @@
 
 // acordion
 .acordion__activo
-  background-color: $color-primario-20 !important
+  background-color: $color-primario-5 !important
   .acordion__accion__btn--a
-    background-color: $color-primario-10 !important
+    background-color: $color-acento-botones  !important
 
 .acordion__accion__btn--a 
   background-color: $color-acento-botones !important
 
 // Tabla a 
 .tabla-a thead
-  border-top: 5px $color-acento-contenido solid
+  border-top: 5px $color-acento-contenido solid !important
   color: $color-sistema-a
-  background-color: $color-secundario-60
+  background-color: $color-primario-20
 
 .bg-table-01
-  background-color: $color-secundario-5
+  background-color: $white
   color: $color-sistema-texto
 
 .bg-table-02
-  background-color: $color-secundario-10
+  background-color: $color-sistema-h
   color: $color-sistema-texto
-.b 
-  font-weight: bold
-
+.tabla-a th
+  border-color: $color-primario-70
+table th, table td
+  padding: 10px 10px
+  border: 2px $color-primario-70 solid

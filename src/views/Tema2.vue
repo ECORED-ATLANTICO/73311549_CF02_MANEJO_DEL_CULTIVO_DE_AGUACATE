@@ -6,12 +6,12 @@
       .titulo-principal__numero
         span 2
       h1 Manejo agronómico 
-    .bg_img_2.mb-3
+    .bg_img_3.mb-3
       .row.justify-content-center.align-items-center.mb-0
-        .col-12.col-lg-5.mb-lg-0.mb-3
+        .col-12.col-lg-4.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/tema_2/img_1.png', class="img-fluid")
-        .col-12.col-lg-7.mb-0
+        .col-12.col-lg-8.mb-0
           p.mb-0 El manejo agronómico del cultivo de aguacate comprende todas las actividades que permiten el crecimiento saludable de las plantas desde su establecimiento hasta la fase productiva.
           p.mb-0 Estas labores deben planificarse de manera técnica, respetando los requerimientos específicos de la especie y su adaptación al entorno. 
           p.mb-0 En esta etapa, se destaca la importancia de las labores culturales como el tutorado, el plateo y las podas, además del diseño y aplicación de un programa de fertilización racional y un plan de Manejo Integrado de Plagas y Enfermedades (MIPE), que asegure la sanidad vegetal, la sostenibilidad del cultivo y la calidad de los frutos.
@@ -34,7 +34,7 @@
           .tarjeta.tarjeta--fondo__slider.p-4
             SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
               .row.justify-content-center.align-items-center
-                .col-12.col-lg-6.order-2.order-lg-1.mb-0
+                .col-12.col-lg-8.order-2.order-lg-1.mb-0
                   h5 Tutorado
                   p.mb-0 Se recomienda tutorar cada plántula al momento de la siembra, especialmente en zonas con vientos fuertes o lluvias intensas.
                   p.mb-0 El tutor se coloca de forma vertical, a 10 cm de la base del árbol, sin perforar la bolsa radicular ni dañar las raíces.
@@ -111,19 +111,19 @@
                   th Elementos principales
                   th Función
               tbody
-                tr
+                tr.bg-table-01
                   td Establecimiento (0 - 2 años)
                   td Fósforo, nitrógeno y calcio
                   td Desarrollo radicular y brotación inicial.
-                tr
+                tr.bg-table-02
                   td Floración y cuajado
                   td Boro, zinc, manganeso y hierro
                   td Formación de polen, fecundación y diferenciación floral.
-                tr
+                tr.bg-table-01
                   td Desarrollo del fruto
                   td Potasio, calcio, magnesio y azufre
                   td Llenado del fruto, firmeza de pulpa y transporte de azúcares.
-                tr
+                tr.bg-table-02
                   td Maduración y cosecha
                   td Potasio, boro y magnesio
                   td Mejora de calidad, sabor, textura y vida poscosecha.

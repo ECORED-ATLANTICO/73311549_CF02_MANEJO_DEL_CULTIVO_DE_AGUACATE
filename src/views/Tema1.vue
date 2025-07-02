@@ -60,11 +60,11 @@
 
         .col-12.col-lg-10.mb-0
           .row.justify-content-center.align-items-center.mb-5
-            .col-8.col-lg-4.mb-lg-0.mb-3
+            .col-8.col-lg-3.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
-            .col-12.col-lg-8
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-contenido-terciario-10")
+            .col-12.col-lg-9
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
                 div(titulo="Cal agrícola o dolomita")
                   p.ps-5.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
                   p.ps-5.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
@@ -86,7 +86,7 @@
           p.mb-0 Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo.
           p.mb-0 Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
           p.mb-0 A continuación, se exploran tres aspectos clave que conforman esta etapa fundamental:
-
+    .bg_img_1.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-5
           //// puntos de calor 
@@ -101,8 +101,8 @@
           p.mb-5 El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
           
           .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-8.order-2.order-lg-1
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-contenido-terciario-10")
+            .col-12.col-lg-9.order-2.order-lg-1
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
                 div(titulo="Época  de siembra")
                   p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado. 
                   p.ps-5.mb-0 Esto garantiza que las plántulas reciban la humedad necesaria para su adaptación y minimiza el estrés hídrico.
@@ -123,7 +123,7 @@
                   p.ps-5.mb-0 Esta densidad permite un adecuado equilibrio entre penetración de luz, desarrollo radicular y manejo sanitario.
                   p.ps-5.mb-0 En suelos fértiles o con riego, se pueden usar distancias menores (6 X 6 m), mientras que en terrenos de ladera o con baja fertilidad, se prefieren marcos de 8 X 8 o 9 X 9 m para reducir la competencia.
 
-            .col-9.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-9.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid")
 
@@ -145,22 +145,22 @@
                   th Árboles/ ha (cuadrado)
                   th Árboles/ ha (triángulo)
               tbody
-                tr
+                tr.bg-table-01
                   td 6 X 6
                   td Alto vigor
                   td 278
                   td 321
-                tr
+                tr.bg-table-02
                   td 7 X 7
                   td Medio vigor
                   td 204
                   td 236
-                tr
+                tr.bg-table-01
                   td 8 X 8
                   td Alto vigor
                   td 156
                   td 180
-                tr
+                tr.bg-table-02
                   td 9 X 9
                   td Bajo vigor
                   td 123
