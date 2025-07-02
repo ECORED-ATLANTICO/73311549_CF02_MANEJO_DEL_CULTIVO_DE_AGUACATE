@@ -89,8 +89,32 @@
     .bg_img_1.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-5
-          //// puntos de calor 
-        
+          ImagenInfografica.time-line-info.pulso-invertido.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/tema_1/img_8.svg')
+
+            .tarjeta.color-adicional-1(x="42.5%" y="37.49%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .h5.mb-3 Textura
+              .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
+                .flex-shrink-0.mb-md-0.mb-3.d-flex
+                  figure.w-100.d-flex.flex-column
+                .flex-grow-1.ms-md-3.ms-0
+                  p.mb-3 En verduras como el brócoli o las arvejas, el escaldado permite conservar una textura firme y crujiente. No obstante, si el tiempo de exposición es excesivo, puede provocar ablandamiento indeseado y pérdida de estructura.
+            .tarjeta.color-adicional-1(x="61.5%" y="56.3%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .h5.mb-3 Color
+              .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
+                .flex-shrink-0.mb-md-0.mb-3.d-flex
+                  figure.w-100.d-flex.flex-column
+                .flex-grow-1.ms-md-3.ms-0
+                  p.mb-3 Las hortalizas de hoja verde intensifican su color al escaldarse, debido a la inactivación de enzimas como la peroxidasa y la polifenoloxidasa. Este efecto mejora notablemente la apariencia visual de productos como espinaca, acelga y brócoli.
+            .tarjeta.color-adicional-1(x="52.6%" y="75.9%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .h5.mb-3 Carga microbiana
+              .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
+                .flex-shrink-0.mb-md-0.mb-3.d-flex
+                  figure.w-100.d-flex.flex-column
+                .flex-grow-1.ms-md-3.ms-0
+                  p.mb-3
           separador
 
           #t_1_2.titulo-segundo.color-acento-contenido

@@ -116,3 +116,151 @@
 table th, table td
   padding: 10px 10px
   border: 2px $color-primario-70 solid
+
+///////// Linea tiempo --------------------------------------
+.linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
+    background-color: $color-primario-10 !important
+  .linea-tiempo-d__item__number
+    background-color: $color-primario-10 !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 5px dotted $color-terciario !important
+.linea-tiempo-d__item__content__title
+  height: 55px
+.tarjeta--gris
+    background-color: $color-terciario
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  
+  &__title-wrapper
+    text-align: center
+
+  &__title
+    margin-top: -150px
+    position: relative
+    font-size: 1.07rem
+    font-weight: 700
+    &.color-primario-60
+      background-color: $color-primario-60
+      padding: 10px 15px
+      margin-bottom: 10px
+      color: $white
+  
+  &__content
+    display: inline-block
+    padding: 5px 5px
+  
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+
+  .slyder-f__main
+    width: 100%
+    height: 100%
+
+  .slyder-f__btn
+    height: 42px
+    width: 42px
+    min-width: 42px
+    background-color: $color-acento-contenido
+    color: $color-sistema-texto
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+
+.custom-slider
+  &__tarjeta
+    min-height: 38rem
+    min-width: 17.13rem
+    border-radius: 20px
+    padding: 19rem 0.7rem 0.7rem 0.7rem !important
+    margin: 0.7rem 0.5rem 0.7rem 0.5rem
+    position: relative
+    display: flex
+    flex-direction: column
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1)
+    
+  @media (max-width: 1024px)
+    &__tarjeta
+      min-height: 25rem
+      min-width: 12.5rem
+      padding: 18rem 0.7rem 0.7rem 0.7rem !important
+      margin: 0
+      
+// time line info
+.time-line-info
+  .tarjeta
+    background-color: white
+    position: relative
+    border-radius: 15px
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+    padding: 1rem
+    width: auto
+    min-width: 350px
+    max-width: 450px
+    min-height: 150px
+    max-height: 530px
+    
+    &.lado-derecho
+      transform-origin: right center
+    
+    .h5
+      font-weight: 600
+      margin-bottom: 1rem
+      font-size: 1.1rem
+    
+    .d-flex
+      &.flex-md-row
+        display: flex
+        align-items: center 
+        gap: 0rem
+        @media (max-width: 768px)
+          flex-direction: column
+          align-items: flex-start
+          gap: 0rem
+      
+      .flex-shrink-0
+        flex-shrink: 0
+        width: 140px 
+        &.d-flex.align-items-center.justify-content-center
+          display: flex
+          align-items: center
+          justify-content: center
+          img
+            width: 100%
+            height: 85px 
+            object-fit: cover
+            border-radius: 8px
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
+      
+      .flex-grow-1
+        flex-grow: 1
+        min-width: 0
+        p
+          margin-bottom: 0.5rem
+          font-size: 0.9rem
+          line-height: 1.4
+          &:last-child
+            margin-bottom: 0
+          b, strong
+            font-weight: 600
+  
+  p
+    margin-bottom: 0

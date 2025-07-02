@@ -83,6 +83,50 @@
       background-color: lighten($color-primario, 50%)
       color: textColor(lighten($color-primario, 50%))
       border: solid 4px $color-primario
+  
+  &.color-primario-60
+    background-color: $color-primario-60
+    padding: 10px 15px
+    margin-bottom: 10px
+    color: $white
+
+  &.color-primario-5
+    background-color: $color-primario-5
+    border-radius: 20px
+    padding: 8rem 1rem 1rem 1rem 
+    position: relative
+    display: flex
+    flex-direction: column
+    *
+      color: textColor($color-primario-5)
+    &--borde
+      background-color: lighten($color-primario-5, 50%)
+      color: textColor(lighten($color-primario-5, 50%))
+      border: solid 4px $color-primario-5
+  &--1::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_4/img_11.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+  &--2::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_4/img_12.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+  &--3::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_4/img_13.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+  &--4::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_4/img_14.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)   
   &.color-secundario
     background-color: $color-secundario
     *

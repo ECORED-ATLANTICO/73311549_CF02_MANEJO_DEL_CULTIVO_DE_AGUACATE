@@ -123,15 +123,31 @@
                 p.mb-0 En el caso de envíos a mercados internacionales, se deben cumplir estrictamente los protocolos fitosanitarios exigidos por el país de destino. Esto incluye, según el requerimiento del cliente o normativa de importación:
         .col-12.col-lg-10.mb-3
           .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-3.mb-lg-0.mb-3
+            .col-5.col-lg-3.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
             .col-12.col-lg-9.mb-lg-0.mb-3
-    
-
-
-
-
+              .custom-slider.p-5.p-sm-3
+                SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+                  .tarjeta.color-primario-5
+                    .tarjeta--1
+                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Requisitos fitosanitarios
+                    .tarjeta--slider__content.text-center En exportaciones de aguacate, es obligatorio cumplir con los protocolos fitosanitarios exigidos por el país de destino. Esto garantiza el acceso a mercados internacionales y la inocuidad del producto, evitando restricciones comerciales por incumplimientos normativos.
+                  .tarjeta.color-primario-5
+                    .tarjeta--2
+                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Tratamientos cuarentenarios
+                    .tarjeta--slider__content.text-center Según la normativa del país importador, el fruto puede requerir tratamiento cuarentenario. Esto incluye aplicaciones de frío controlado, fumigación autorizada o inspección oficial previa al embarque, para evitar la diseminación de plagas y enfermedades.
+                  .tarjeta.color-primario-5
+                    .tarjeta--3
+                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Trazabilidad documental
+                    .tarjeta--slider__content.text-center Todo lote de aguacate destinado a exportación debe contar con trazabilidad completa. La documentación incluye origen del cultivo, lote, fecha de empaque, variedad, prácticas poscosecha y datos del productor o centro de acopio autorizado.
+                  .tarjeta.color-primario-5
+                    .tarjeta--4
+                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Monitoreo de condiciones
+                    .tarjeta--slider__content.text-center Durante el transporte internacional, se debe registrar y monitorear la temperatura y humedad relativa en tiempo real. Esto garantiza condiciones óptimas para conservar la calidad del fruto y cumplir los estándares exigidos por el cliente.
+                
+        .col-12.col-lg-10.mb-3
+         p.mb-0 El transporte eficiente y técnicamente controlado permite conservar el valor comercial del fruto, prevenir pérdidas y cumplir con las exigencias de calidad e inocuidad del mercado nacional e internacional.
 </template>
 
 <script>
