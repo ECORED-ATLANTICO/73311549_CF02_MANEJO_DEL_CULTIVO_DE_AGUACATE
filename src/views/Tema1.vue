@@ -92,29 +92,23 @@
           ImagenInfografica.time-line-info.pulso-invertido.mb-5
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema_1/img_8.svg')
+                img(src='@/assets/curso/temas/tema_1/img_8.png')
 
-            .tarjeta.color-adicional-1(x="42.5%" y="37.49%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-              .h5.mb-3 Textura
-              .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
-                .flex-shrink-0.mb-md-0.mb-3.d-flex
-                  figure.w-100.d-flex.flex-column
-                .flex-grow-1.ms-md-3.ms-0
-                  p.mb-3 En verduras como el brócoli o las arvejas, el escaldado permite conservar una textura firme y crujiente. No obstante, si el tiempo de exposición es excesivo, puede provocar ablandamiento indeseado y pérdida de estructura.
-            .tarjeta.color-adicional-1(x="61.5%" y="56.3%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-              .h5.mb-3 Color
-              .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
-                .flex-shrink-0.mb-md-0.mb-3.d-flex
-                  figure.w-100.d-flex.flex-column
-                .flex-grow-1.ms-md-3.ms-0
-                  p.mb-3 Las hortalizas de hoja verde intensifican su color al escaldarse, debido a la inactivación de enzimas como la peroxidasa y la polifenoloxidasa. Este efecto mejora notablemente la apariencia visual de productos como espinaca, acelga y brócoli.
-            .tarjeta.color-adicional-1(x="52.6%" y="75.9%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-              .h5.mb-3 Carga microbiana
-              .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
-                .flex-shrink-0.mb-md-0.mb-3.d-flex
-                  figure.w-100.d-flex.flex-column
-                .flex-grow-1.ms-md-3.ms-0
-                  p.mb-3
+            .tarjeta.color-adicional-1(x="18%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .h5.mb-3 Labores de preparación del terreno
+              p.mb-0 El terreno debe ser acondicionado con labores mecánicas que mejoren su estructura.
+              p.mb-0 Se inicia con el desmonte y subsolado para romper capas compactadas, seguido de arado y rastrillado para aflojar el suelo y nivelar la superficie.
+              p.mb-0 Esto permite una mejor infiltración del agua y facilita el crecimiento radicular uniforme.
+            .tarjeta.color-adicional-1(x="48.6%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .h5.mb-3 Disponibilidad de agua
+              p.mb-0 El lote debe contar con acceso continuo a una fuente de agua limpia, ya sea superficial o subterránea.
+              p.mb-0 Esta disponibilidad es clave en el establecimiento, floración y llenado del fruto. 
+              p.mb-0 Se recomienda analizar la calidad del agua para evitar problemas de salinidad o acumulación de sodio en el suelo.
+            .tarjeta.color-adicional-1(x="80.2%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .h5.mb-3 Trazado del lote
+              p.mb-0 Antes de sembrar, se marcan los sitios donde irá cada planta, teniendo en cuenta la pendiente y la dirección del sol.
+              p.mb-0 El trazado puede ser cuadrado, triangular o en curvas de nivel, según el terreno.
+              p.mb-0 Esta labor define el orden, la densidad y la eficiencia en el uso del espacio y la luz.
           separador
 
           #t_1_2.titulo-segundo.color-acento-contenido

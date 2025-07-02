@@ -131,7 +131,13 @@
           p.mb-0 El plan de fertilización debe actualizarse anualmente, ajustándose a los resultados de los análisis del lote, al comportamiento de la variedad sembrada y a las condiciones climáticas locales.
           p.mb-5 Un programa bien estructurado no solo mejora la producción y la calidad del fruto, sino que fortalece la resistencia del cultivo a plagas, enfermedades y condiciones de estrés.
         .col-12.col-lg-8.mb-3 
-          /// contenedor especial
+          .tarjeta_tema-2
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-8.order-2.order-lg-1
+                p.mb-0 En el cultivo de aguacate, el MIPE es obligatorio para garantizar la sostenibilidad, prevenir residuos de agroquímicos en el fruto y cumplir con certificaciones de Buenas Prácticas Agrícolas (BPA) y normas internacionales de exportación. Su implementación se basa en cinco pilares fundamentales:
+              .col-5.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+                figure
+                  img.mb-0(src="@/assets/curso/temas/tema_2/img_10.png", class="img-fluid")
         .col-12.col-lg-10.mb-3 
           p.mb-0 En el cultivo de aguacate, el MIPE es obligatorio para garantizar la sostenibilidad, prevenir residuos de agroquímicos en el fruto y cumplir con certificaciones de Buenas Prácticas Agrícolas (BPA) y normas internacionales de exportación.
           p.mb-5 Su implementación se basa en cinco pilares fundamentales:
