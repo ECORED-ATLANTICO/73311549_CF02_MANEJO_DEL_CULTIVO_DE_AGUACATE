@@ -19,7 +19,7 @@
       separador
 
       #t_1_1.titulo-segundo.color-acento-contenido
-        .h2(data-aos="fade-right") 1.1	Selección y preparación del lote
+        .h2(data-aos="fade-right") 1.1  Selección y preparación del lote
       .mb-3
 
       .row.justify-content-center.align-items-center.mb-3
@@ -86,7 +86,7 @@
           p.mb-0 Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo.
           p.mb-0 Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
           p.mb-0 A continuación, se exploran tres aspectos clave que conforman esta etapa fundamental:
-    .bg_img_1.mb-3
+    .bg_img_2.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-5
           ImagenInfografica.time-line-info.pulso-invertido.mb-5
@@ -112,7 +112,7 @@
           separador
 
           #t_1_2.titulo-segundo.color-acento-contenido
-            .h2(data-aos="fade-right") 1.2	Siembra y distancias 
+            .h2(data-aos="fade-right") 1.2  Siembra y distancias 
           .mb-3
 
           p.mb-0 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo.

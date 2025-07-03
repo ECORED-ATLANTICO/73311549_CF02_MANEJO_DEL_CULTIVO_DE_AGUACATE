@@ -73,7 +73,7 @@
       #t_2_2.titulo-segundo.color-acento-contenido
         .h2(data-aos="fade-right") 2.2 Fertilización y MIPE
       .mb-3
-
+    .bg_img_4.mb-3
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-4.mb-lg-5.mb-3
           figure
@@ -99,7 +99,7 @@
         
         .col-12.col-lg-10.mb-3 
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Tabla 1.
+            h5 Tabla 2.
             |  Requerimientos nutricionales por etapa del aguacate.
           .tabla-a.mb-3
             table
@@ -138,33 +138,34 @@
               .col-5.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img.mb-0(src="@/assets/curso/temas/tema_2/img_10.png", class="img-fluid")
-        .col-12.col-lg-10.mb-3 
-          p.mb-0 En el cultivo de aguacate, el MIPE es obligatorio para garantizar la sostenibilidad, prevenir residuos de agroquímicos en el fruto y cumplir con certificaciones de Buenas Prácticas Agrícolas (BPA) y normas internacionales de exportación.
-          p.mb-5 Su implementación se basa en cinco pilares fundamentales:
-          .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
-              LineaTiempoD.color-adicional-3
-                .row(numero="1" titulo="Monitoreo")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. 
-                    p.text-small.mb-0 Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
-                .row(numero="2" titulo="Umbrales de acción")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos.
-                    p.text-small.mb-0 Esto evita aplicaciones innecesarias.
-                .row(numero="3" titulo="Control biológico")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Uso de organismos benéficos como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias como <I>Bacillus thuringiensis</I> que controlan plagas sin afectar el ambiente.
-                .row(numero="4" titulo="Control cultural")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Incluye prácticas como podas sanitarias, manejo de coberturas vegetales, eliminación de residuos de cosecha, rotación de cultivos o barreras vivas que dificulten el ingreso de insectos.
-                .row(numero="5" titulo="Uso racional de agroquímicos")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Cuando es necesario aplicar insecticidas, se eligen productos de categoría toxicológica baja (III y IV), respetando los periodos de carencia y reentrada.
-                    p.text-small.mb-0 Se recomienda alternar principios activos para evitar resistencia.
-            .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
-              figure.w-100.d-flex.flex-column
-                img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid").height-100
+    .row.justify-content-center.align-items-center.mb-0
+      .col-12.col-lg-10.mb-3 
+        p.mb-0 En el cultivo de aguacate, el MIPE es obligatorio para garantizar la sostenibilidad, prevenir residuos de agroquímicos en el fruto y cumplir con certificaciones de Buenas Prácticas Agrícolas (BPA) y normas internacionales de exportación.
+        p.mb-5 Su implementación se basa en cinco pilares fundamentales:
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+          .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
+            LineaTiempoD.color-adicional-3
+              .row(numero="1" titulo="Monitoreo")
+                .col-md-12.mb-4.mb-md-0
+                  p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. 
+                  p.text-small.mb-0 Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
+              .row(numero="2" titulo="Umbrales de acción")
+                .col-md-12.mb-4.mb-md-0
+                  p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos.
+                  p.text-small.mb-0 Esto evita aplicaciones innecesarias.
+              .row(numero="3" titulo="Control biológico")
+                .col-md-12.mb-4.mb-md-0
+                  p.text-small.mb-0 Uso de organismos benéficos como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias como <I>Bacillus thuringiensis</I> que controlan plagas sin afectar el ambiente.
+              .row(numero="4" titulo="Control cultural")
+                .col-md-12.mb-4.mb-md-0
+                  p.text-small.mb-0 Incluye prácticas como podas sanitarias, manejo de coberturas vegetales, eliminación de residuos de cosecha, rotación de cultivos o barreras vivas que dificulten el ingreso de insectos.
+              .row(numero="5" titulo="Uso racional de agroquímicos")
+                .col-md-12.mb-4.mb-md-0
+                  p.text-small.mb-0 Cuando es necesario aplicar insecticidas, se eligen productos de categoría toxicológica baja (III y IV), respetando los periodos de carencia y reentrada.
+                  p.text-small.mb-0 Se recomienda alternar principios activos para evitar resistencia.
+          .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid").height-100
 </template>
 
 <script>
