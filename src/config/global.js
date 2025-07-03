@@ -156,21 +156,21 @@ export default {
     {
       tema: 'Poscosecha',
       referencia:
-        'Escobar Calderón, J. V., Cortés Rodríguez, M., Rodríguez Fonseca, P. E., Correa Londoño, G., & Grupo de Alimentos Funcionales (GAF). (2018). Evaluación de la influencia de la zona de cultivo, índice de madurez de cosecha y condiciones de almacenamiento bajo refrigeración sobre la calidad del aguacate (Persea americana Mill cv. Hass). Universidad Nacional de Colombia.',
+        'Escobar Calderón, J. V., Cortés Rodríguez, M., Rodríguez Fonseca, P. E., Correa Londoño, G., & Grupo de Alimentos Funcionales (GAF). (2018). <i>Evaluación de la influencia de la zona de cultivo, índice de madurez de cosecha y condiciones de almacenamiento bajo refrigeración sobre la calidad del aguacate </i>(Persea americana Mill cv. Hass). Universidad Nacional de Colombia.',
       tipo: 'Artículo científico',
       link: 'https://repositorio.unal.edu.co/handle/unal/83497',
     },
     {
       tema: 'Almacenamiento y transporte',
       referencia:
-        'Astudillo, C., & Rodríguez, P. (2018). Parámetros fisicoquímicos del aguacate Persea americana Mill. cv. Hass (Lauraceae) producido en Antioquia (Colombia) para exportación. Manejo de cosecha y tecnología poscosecha, (mayo-agosto 2018), 0122 8706.',
+        'Astudillo, C., & Rodríguez, P. (2018). <i>Parámetros fisicoquímicos del aguacate Persea americana Mill. cv. Hass (Lauraceae) producido en Antioquia (Colombia) para exportación. Manejo de cosecha y tecnología poscosecha,</i> (mayo-agosto 2018), 0122 8706.',
       tipo: 'Artículo técnico PDF',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6627457',
     },
     {
       tema: 'Poscosecha ',
       referencia:
-        'SENA. (2025). Manejo tecnológico del cultivo de aguacate: cosecha y poscosecha. ECORED SENA.',
+        'SENA. (2025). <i>Manejo tecnológico del cultivo de aguacate: cosecha y poscosecha.</i> ECORED SENA.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=n1Dswau8x-4',
     },
@@ -240,34 +240,34 @@ export default {
   referencias: [
     {
       referencia:
-        'Moreno Henao, J. M. (2020). Buenas prácticas poscosecha del aguacate (Persea americana Mill.).<br>Gobernación del Tolima & SENA. ',
+        'Moreno Henao, J. M. (2020). <i>Buenas prácticas poscosecha del aguacate </i>(Persea americana Mill.).<br>Gobernación del Tolima & SENA. ',
       link: 'https://www.redalyc.org/pdf/1698/169818107001.pdf',
     },
     {
       referencia:
-        'MAG (Ministerio de Agricultura y Ganadería de Costa Rica). (2021). Manual de manejo pre y poscosecha de aguacate. MAG. ',
+        'MAG (Ministerio de Agricultura y Ganadería de Costa Rica). (2021). <i>Manual de manejo pre y poscosecha de aguacate.</i> MAG. ',
       link: 'https://www.mag.go.cr/bibliotecavirtual/F01-9029.pdf',
     },
     {
       referencia:
-        'Arpaia, M. L., White, A. K., Woolf, A. B., & Hofman, P. J. (2018). Protocolo de almacenamiento y maduración de aguacate cv. Hass. Center for Produce Quality. ',
+        'Arpaia, M. L., White, A. K., Woolf, A. B., & Hofman, P. J. (2018). <i>Protocolo de almacenamiento y maduración de aguacate cv. Hass.</i> Center for Produce Quality. ',
       link:
         'https://pdfs.semanticscholar.org/2cd9/09c62ea3922155fd112ec157bffcf73bae77.pdf',
     },
     {
       referencia:
-        "Revista Mexicana de Fitotecnia. (2014). Comportamiento postcosecha de frutos de aguacate 'Hass' almacenados y bajo atmósfera modificada. Fitotecnia Mexicana, 37(3).",
+        "Revista Mexicana de Fitotecnia. (2014). <i>Comportamiento postcosecha de frutos de aguacate 'Hass' almacenados y bajo atmósfera modificada.</i> Fitotecnia Mexicana, 37(3).",
       link: 'https://revistafitotecniamexicana.org/documentos/37-3/7a.pdf',
     },
     {
       referencia:
-        'ICTA. (2025). Manual de manejo poscosecha de aguacate. Instituto de Ciencia y Tecnología Agrícola (Guatemala). ',
+        'ICTA. (2025). <i>Manual de manejo poscosecha de aguacate.</i> Instituto de Ciencia y Tecnología Agrícola (Guatemala). ',
       link:
         'https://www.icta.gob.gt/publicaciones/Aguacate/Manual%20aguacate%202024.pdf',
     },
     {
       referencia:
-        'Agrocalidad. (2015). Guía de buenas prácticas agrícolas para el cultivo de aguacate. ',
+        'Agrocalidad. (2015). <i>Guía de buenas prácticas agrícolas para el cultivo de aguacate.</i> ',
       link: 'https://faolex.fao.org/docs/pdf/ecu167499.pdf',
     },
   ],
@@ -292,7 +292,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Paola Andrea Bobadilla Gutiérrez ',
+          nombre: 'Paola Andrea Bobadilla Gutiérrez',
           cargo: 'Guionista línea de producción.  ',
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
@@ -328,23 +328,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Maria Fernanda Morales Angulo',
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Jairo Luis Valencia Ebratt',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validador y vinculador de recursos digitales ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jonathan Adie Villafañe',
-          cargo: 'Validador y vinculador de recursos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

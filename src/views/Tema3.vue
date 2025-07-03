@@ -33,7 +33,7 @@
       .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-5.mb-3.d-flex
           .w-100.d-flex.flex-column
-            .tarjeta.color-acento-botones.height-100
+            .tarjeta.color-primario.height-100
               figure
                 img(src="@/assets/curso/temas/tema_3/img_3.png", class="img-fluid")
               p.p-3.pt-2.pb-0.mb-0 El punto óptimo de cosecha se identifica mediante signos como el cambio de color en la cáscara y el pedúnculo, tiempo desde floración, materia seca, contenido de aceite y textura de la semilla.
