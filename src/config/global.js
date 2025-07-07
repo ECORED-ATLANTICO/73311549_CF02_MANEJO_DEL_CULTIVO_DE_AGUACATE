@@ -97,12 +97,12 @@ export default {
           {
             numero: '4.1',
             titulo: 'Clasificación y empaque',
-            hash: 't_1_1',
+            hash: 't_4_1',
           },
           {
             numero: '4.2',
             titulo: 'Almacenamiento y transporte',
-            hash: 't_1_2',
+            hash: 't_4_2',
           },
         ],
       },
