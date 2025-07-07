@@ -82,9 +82,7 @@
           figure
             img(src='@/assets/curso/temas/tema_1/img_7.svg', class="img-fluid")
         .col-12.col-lg-10
-          p.mb-0 Antes de ejecutar la siembra del aguacate, es fundamental llevar a cabo una secuencia de acciones técnicas que garanticen el acondicionamiento adecuado del lote.
-          p.mb-0 Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo.
-          p.mb-0 Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
+          p.mb-0 Antes de ejecutar la siembra del aguacate, es fundamental llevar a cabo una secuencia de acciones técnicas que garanticen el acondicionamiento adecuado del lote. Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo. Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
           p.mb-0 A continuación, se exploran tres aspectos clave que conforman esta etapa fundamental:
     .bg_img_2.mb-3
       .row.justify-content-center.align-items-center.mb-3
