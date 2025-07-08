@@ -30,22 +30,25 @@
           p.mb-0 La cosecha del aguacate requiere criterios técnicos que aseguren la calidad y vida útil del fruto.
           p.mb-0 Al ser un fruto climatérico, su maduración ocurre fuera del árbol, por lo que es fundamental identificar el momento adecuado de corte.
           p.mb-0 Esta etapa debe basarse en indicadores confiables de madurez fisiológica y ejecutarse con herramientas y prácticas que minimicen el deterioro y preserven la inocuidad del producto.
-      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      
+      .row.d-flex.justify-content-center.align-items-stretch.mb-3
         .col-12.col-lg-5.mb-3.d-flex
-          .w-100.d-flex.flex-column
-            .tarjeta.color-primario.height-100
-              figure
-                img(src="@/assets/curso/temas/tema_3/img_3.png", class="img-fluid")
-              p.p-3.pt-2.pb-0.mb-0 El punto óptimo de cosecha se identifica mediante signos como el cambio de color en la cáscara y el pedúnculo, tiempo desde floración, materia seca, contenido de aceite y textura de la semilla.
-              p.p-3.pt-2.mb-0 Cada variedad requiere evaluación específica.
+          .w-100.d-flex.flex-column.h-100
+            .tarjeta.color-primario.d-flex.flex-column.h-100
+              figure.mb-0
+                img(src="@/assets/curso/temas/tema_3/img_3.png", class="img-fluid w-100")
+              .flex-grow-1.d-flex.flex-column
+                p.p-3.pt-2.pb-0.mb-0 El punto óptimo de cosecha se identifica mediante signos como el cambio de color en la cáscara y el pedúnculo, tiempo desde floración, materia seca, contenido de aceite y textura de la semilla.
+                p.p-3.pt-2.mb-0 Cada variedad requiere evaluación específica.
 
         .col-12.col-lg-5.mb-3.d-flex
-          .w-100.d-flex.flex-column
-            .tarjeta.color-terciario.height-100
-              figure
-                img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
-              p.p-3.pb-0.pt-2.mb-0 La recolección se realiza manualmente con cuchillas limpias, dejando 0,5 a 1 cm de pedúnculo. Se evita cosechar con humedad y se recolecta en la mañana. 
-              p.p-3.pt-2.mb-0 Frutos golpeados, húmedos o mal manipulados pierden calidad y vida útil.
+          .w-100.d-flex.flex-column.h-100
+            .tarjeta.color-terciario.d-flex.flex-column.h-100
+              figure.mb-0
+                img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid w-100")
+              .flex-grow-1.d-flex.flex-column
+                p.p-3.pb-0.pt-2.mb-0 La recolección se realiza manualmente con cuchillas limpias, dejando 0,5 a 1 cm de pedúnculo. Se evita cosechar con humedad y se recolecta en la mañana. 
+                p.p-3.pt-2.mb-0 Frutos golpeados, húmedos o mal manipulados pierden calidad y vida útil.
 
     separador
 

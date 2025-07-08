@@ -111,23 +111,13 @@
               figure
                 img(src='@/assets/curso/temas/tema_4/img_8.svg', class="img-fluid")
 
-        .col-12.col-lg-10.mb-5
-          .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-4.mb-lg-0.mb-3
+        .col-12.col-lg-12.mb-5
+           .row.justify-content-center.align-items-center.mb-3
+            .col-8.col-lg-2.mb-lg-0.mb-3
               figure
-                img(src='@/assets/curso/temas/tema_4/img_9.png', class="img-fluid")
-            .col-12.col-lg-8
-              p.mb-0 Para preservar la integridad del producto durante el traslado, las cajas o canastillas deben apilarse correctamente, sin sobrepeso, evitando deformaciones o bloqueos que impidan la circulación de aire.
-              p.mb-3 Se deben minimizar las vibraciones, los impactos, la exposición directa al sol y las altas temperaturas, ya que estas condiciones pueden acelerar la maduración, provocar daños mecánicos internos y reducir la vida útil del aguacate.
-              .cajon.color-color-secundario-mix-5.p-4
-                p.mb-0 En el caso de envíos a mercados internacionales, se deben cumplir estrictamente los protocolos fitosanitarios exigidos por el país de destino. Esto incluye, según el requerimiento del cliente o normativa de importación:
-        .col-12.col-lg-10.mb-3
-          .row.justify-content-center.align-items-center.mb-3
-            .col-5.col-lg-3.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
-            .col-12.col-lg-9.mb-lg-0.mb-3
-              .custom-slider.p-5.p-sm-3
+                img(src='@/assets/curso/temas/tema_4/img_10.png',class="img-fluid h-100 w-100 object-fit-cover")
+            .col-12.col-lg-8.mb-lg-0.mb-3
+              .custom-slider.p-3.p-sm-3
                 SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
                   .tarjeta.color-primario-5
                     .tarjeta--1
@@ -145,7 +135,7 @@
                     .tarjeta--4
                     .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Monitoreo de condiciones
                     .tarjeta--slider__content.text-center Durante el transporte internacional, se debe registrar y monitorear la temperatura y humedad relativa en tiempo real. Esto garantiza condiciones óptimas para conservar la calidad del fruto y cumplir los estándares exigidos por el cliente.
-                
+       
         .col-12.col-lg-10.mb-3
          p.mb-0 El transporte eficiente y técnicamente controlado permite conservar el valor comercial del fruto, prevenir pérdidas y cumplir con las exigencias de calidad e inocuidad del mercado nacional e internacional.
 </template>
