@@ -63,7 +63,7 @@
                   p.mb-0 Cada corte debe hacerse con herramientas desinfectadas (alcohol al 70 % o hipoclorito de sodio al 5 %) y, preferiblemente, aplicar cicatrizante a base de cobre en los cortes gruesos.
                 .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
+                    img(src='@/assets/curso/temas/tema_2/img_5.1.png', class="img-fluid")
 
       separador
 
@@ -142,7 +142,7 @@
         p.mb-0 En el cultivo de aguacate, el MIPE es obligatorio para garantizar la sostenibilidad, prevenir residuos de agroquímicos en el fruto y cumplir con certificaciones de Buenas Prácticas Agrícolas (BPA) y normas internacionales de exportación.
         p.mb-5 Su implementación se basa en cinco pilares fundamentales:
 
-    .row.d-flex.align-items-stretch.justify-content-center.mb-3
+    .row.d-flex.align-items-start.justify-content-center.mb-3
       .col-12.col-lg-6.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Monitoreo")
@@ -165,7 +165,7 @@
               p.text-small.mb-0 Se recomienda alternar principios activos para evitar resistencia.
       .col-7.col-lg-4.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
         figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
-          img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid h-100")
+          img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid ")
 </template>
 
 <script>

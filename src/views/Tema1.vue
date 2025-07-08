@@ -58,11 +58,11 @@
         figure
           img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")
 
-    .row.d-flex.align-items-stretch.justify-content-center.mb-5
-      .col-12.col-lg-3.d-flex.mb-lg-0.mb-3
-        figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
-          img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid h-100")
-      .col-12.col-lg-7
+    .row.d-flex.align-items-start.justify-content-center.mb-5
+      .col-12.col-lg-4.d-flex.mb-lg-0.mb-3
+        figure.d-flex.flex-column.justify-content-center.align-items-stretch.w-100.h-100
+          img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid w-100 ")
+      .col-12.col-lg-6
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
           div(titulo="Cal agrícola o dolomita")
             p.ps-3.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
@@ -122,8 +122,8 @@
 
           p.mb-0 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo.
           p.mb-5 El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
-      .row.d-flex.align-items-stretch.justify-content-center.mb-3
-        .col-12.col-lg-7.order-2.order-lg-1.mb-3
+      .row.d-flex.align-items-start.justify-content-center.mb-3
+        .col-12.col-lg-6.order-2.order-lg-1.mb-3
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Época  de siembra")
               p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado. 
@@ -145,9 +145,9 @@
               p.ps-5.mb-0 Esta densidad permite un adecuado equilibrio entre penetración de luz, desarrollo radicular y manejo sanitario.
               p.ps-5.mb-0 En suelos fértiles o con riego, se pueden usar distancias menores (6 X 6 m), mientras que en terrenos de ladera o con baja fertilidad, se prefieren marcos de 8 X 8 o 9 X 9 m para reducir la competencia.
 
-        .col-9.col-lg-3.d-flex.order-1.order-lg-2.mb-3
+        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3
           figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
-            img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid h-100")
+            img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid ")
 
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-3

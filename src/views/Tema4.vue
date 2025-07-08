@@ -30,7 +30,7 @@
           p.mb-0 Este proceso puede realizarse de forma manual o mediante sistemas semiautomatizados, y debe llevarse a cabo en áreas limpias, con iluminación adecuada y personal capacitado. 
           p.mb-0 Los criterios más comunes de clasificación incluyen:
 
-      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+      .row.d-flex.align-items-start.justify-content-center.mb-3
         .col-12.col-lg-7.order-2.order-lg-1
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Tamaño y peso")
@@ -49,7 +49,7 @@
               p.ps-5.mb-0 Se verifica mediante presión manual suave si el fruto mantiene una firmeza uniforme, sin zonas blandas, hundimientos o signos de sobremaduración.
               p.ps-5.mb-0 Los frutos demasiado blandos o con textura irregular se excluyen por riesgo de deterioro durante el transporte y almacenamiento.
 
-        .col-9.col-lg-3.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
+        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
           figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
             img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid h-100")
 
