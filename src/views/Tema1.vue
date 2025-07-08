@@ -48,9 +48,9 @@
                   figure
                     img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
 
-        .col-12.col-lg-10.mb-5
+        .col-12.col-lg-12.mb-5
           .row.justify-content-center.align-items-center.mb-0
-            .col-12.col-lg-9.order-2.order-lg-1
+            .col-12.col-lg-7.order-2.order-lg-1
               p.mb-0 Antes de establecer un cultivo de aguacate, es indispensable conocer las condiciones químicas y físicas del suelo mediante un análisis técnico detallado.
               p.mb-0 Esta evaluación permite determinar los niveles de pH, salinidad, contenido de materia orgánica, textura, capacidad de intercambio catiónico (CIC), conductividad eléctrica, y concentración de nutrientes esenciales.
               p.mb-0 Con base en estos resultados, se formulan recomendaciones específicas sobre el tipo de enmiendas requeridas para acondicionar el suelo y asegurar un entorno favorable para el desarrollo de las raíces y el establecimiento saludable de la plantación.
@@ -58,25 +58,25 @@
               figure
                 img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")
 
-        .col-12.col-lg-10.mb-0
+        .col-12.col-lg-12.mb-0
           .row.justify-content-center.align-items-center.mb-5
-            .col-8.col-lg-3.mb-lg-0.mb-3
+            .col-12.col-lg-3.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
-            .col-12.col-lg-9
+            .col-12.col-lg-7
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
                 div(titulo="Cal agrícola o dolomita")
-                  p.ps-5.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
-                  p.ps-5.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
-                  p.ps-5.mb-0 Se aplica de forma uniforme 30 a 45 días antes de la siembra, según análisis de suelo.
+                  p.ps-3.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
+                  p.ps-3.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
+                  p.ps-3.mb-0 Se aplica de forma uniforme 30 a 45 días antes de la siembra, según análisis de suelo.
                 div(titulo="Yeso agrícola")
-                  p.ps-5.mb-0 Es ideal para suelos con alto contenido de sodio, ya que mejora la estructura y la permeabilidad sin modificar el pH. 
-                  p.ps-5.mb-0 Libera calcio que desplaza el sodio del complejo de intercambio, facilitando su lavado con riego o lluvia.
-                  p.ps-5.mb-0 Su uso está indicado especialmente en suelos compactados o con encostramiento superficial.
+                  p.ps-3.mb-0 Es ideal para suelos con alto contenido de sodio, ya que mejora la estructura y la permeabilidad sin modificar el pH. 
+                  p.ps-3.mb-0 Libera calcio que desplaza el sodio del complejo de intercambio, facilitando su lavado con riego o lluvia.
+                  p.ps-3.mb-0 Su uso está indicado especialmente en suelos compactados o con encostramiento superficial.
                 div(titulo="Materia orgánica")
-                  p.ps-5.mb-0 Aporta nutrientes, mejora la estructura y retención de agua, y activa la vida microbiana del suelo.
-                  p.ps-5.mb-0 Se recomienda compost bien descompuesto, estiércol tratado o bokashi, aplicados antes de la siembra o alrededor del árbol en producción.
-                  p.ps-5.mb-0 Su uso continuo contribuye a la sostenibilidad del cultivo y la salud del suelo.
+                  p.ps-3.mb-0 Aporta nutrientes, mejora la estructura y retención de agua, y activa la vida microbiana del suelo.
+                  p.ps-3.mb-0 Se recomienda compost bien descompuesto, estiércol tratado o bokashi, aplicados antes de la siembra o alrededor del árbol en producción.
+                  p.ps-3.mb-0 Su uso continuo contribuye a la sostenibilidad del cultivo y la salud del suelo.
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-2.mb-lg-0.mb-3
           figure
