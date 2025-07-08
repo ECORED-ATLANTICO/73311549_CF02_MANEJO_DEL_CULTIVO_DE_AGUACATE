@@ -22,13 +22,14 @@
         .h2(data-aos="fade-right") 1.1  Selección y preparación del lote
       .mb-3
 
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-center.mb-4
         .col-12.col-lg-2.mb-lg-5.mb-3
           figure
             img(src='@/assets/curso/temas/tema_1/img_2.svg', class="img-fluid")
         .col-12.col-lg-10.mb-5
           p.mb-0 Para establecer una plantación de aguacate es necesario identificar y acondicionar un lote que cumpla con condiciones agroecológicas favorables. 
           p.mb-0 Este proceso requiere evaluar tanto las características físicas del terreno como la disponibilidad de servicios esenciales, incluyendo el acceso a fuentes de agua, vías de transporte y barreras naturales contra el viento.
+        
         .col-12.col-lg-10.mb-5
           .tarjeta.tarjeta--fondo__slider.p-4
             SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
@@ -48,46 +49,46 @@
                   figure
                     img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
 
-        .col-12.col-lg-12.mb-5
-          .row.justify-content-center.align-items-center.mb-0
-            .col-12.col-lg-7.order-2.order-lg-1
-              p.mb-0 Antes de establecer un cultivo de aguacate, es indispensable conocer las condiciones químicas y físicas del suelo mediante un análisis técnico detallado.
-              p.mb-0 Esta evaluación permite determinar los niveles de pH, salinidad, contenido de materia orgánica, textura, capacidad de intercambio catiónico (CIC), conductividad eléctrica, y concentración de nutrientes esenciales.
-              p.mb-0 Con base en estos resultados, se formulan recomendaciones específicas sobre el tipo de enmiendas requeridas para acondicionar el suelo y asegurar un entorno favorable para el desarrollo de las raíces y el establecimiento saludable de la plantación.
-            .col-12.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-7.order-2.order-lg-1
+        p.mb-0 Antes de establecer un cultivo de aguacate, es indispensable conocer las condiciones químicas y físicas del suelo mediante un análisis técnico detallado.
+        p.mb-0 Esta evaluación permite determinar los niveles de pH, salinidad, contenido de materia orgánica, textura, capacidad de intercambio catiónico (CIC), conductividad eléctrica, y concentración de nutrientes esenciales.
+        p.mb-0 Con base en estos resultados, se formulan recomendaciones específicas sobre el tipo de enmiendas requeridas para acondicionar el suelo y asegurar un entorno favorable para el desarrollo de las raíces y el establecimiento saludable de la plantación.
+      .col-12.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
+        figure
+          img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")
 
-        .col-12.col-lg-12.mb-0
-          .row.justify-content-center.align-items-center.mb-5
-            .col-12.col-lg-3.mb-lg-0.mb-3
-              figure
-                img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
-            .col-12.col-lg-7
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
-                div(titulo="Cal agrícola o dolomita")
-                  p.ps-3.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
-                  p.ps-3.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
-                  p.ps-3.mb-0 Se aplica de forma uniforme 30 a 45 días antes de la siembra, según análisis de suelo.
-                div(titulo="Yeso agrícola")
-                  p.ps-3.mb-0 Es ideal para suelos con alto contenido de sodio, ya que mejora la estructura y la permeabilidad sin modificar el pH. 
-                  p.ps-3.mb-0 Libera calcio que desplaza el sodio del complejo de intercambio, facilitando su lavado con riego o lluvia.
-                  p.ps-3.mb-0 Su uso está indicado especialmente en suelos compactados o con encostramiento superficial.
-                div(titulo="Materia orgánica")
-                  p.ps-3.mb-0 Aporta nutrientes, mejora la estructura y retención de agua, y activa la vida microbiana del suelo.
-                  p.ps-3.mb-0 Se recomienda compost bien descompuesto, estiércol tratado o bokashi, aplicados antes de la siembra o alrededor del árbol en producción.
-                  p.ps-3.mb-0 Su uso continuo contribuye a la sostenibilidad del cultivo y la salud del suelo.
-      .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-2.mb-lg-0.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema_1/img_7.svg', class="img-fluid")
-        .col-12.col-lg-10
-          p.mb-0 Antes de ejecutar la siembra del aguacate, es fundamental llevar a cabo una secuencia de acciones técnicas que garanticen el acondicionamiento adecuado del lote. Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo. Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
-          p.mb-0 A continuación, se exploran tres aspectos clave que conforman esta etapa fundamental:
+    .row.d-flex.align-items-stretch.justify-content-center.mb-5
+      .col-12.col-lg-3.d-flex.mb-lg-0.mb-3
+        figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+          img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid h-100")
+      .col-12.col-lg-7
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
+          div(titulo="Cal agrícola o dolomita")
+            p.ps-3.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
+            p.ps-3.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
+            p.ps-3.mb-0 Se aplica de forma uniforme 30 a 45 días antes de la siembra, según análisis de suelo.
+          div(titulo="Yeso agrícola")
+            p.ps-3.mb-0 Es ideal para suelos con alto contenido de sodio, ya que mejora la estructura y la permeabilidad sin modificar el pH. 
+            p.ps-3.mb-0 Libera calcio que desplaza el sodio del complejo de intercambio, facilitando su lavado con riego o lluvia.
+            p.ps-3.mb-0 Su uso está indicado especialmente en suelos compactados o con encostramiento superficial.
+          div(titulo="Materia orgánica")
+            p.ps-3.mb-0 Aporta nutrientes, mejora la estructura y retención de agua, y activa la vida microbiana del suelo.
+            p.ps-3.mb-0 Se recomienda compost bien descompuesto, estiércol tratado o bokashi, aplicados antes de la siembra o alrededor del árbol en producción.
+            p.ps-3.mb-0 Su uso continuo contribuye a la sostenibilidad del cultivo y la salud del suelo.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-2.mb-lg-0.mb-3
+        figure
+          img(src='@/assets/curso/temas/tema_1/img_7.svg', class="img-fluid")
+      .col-12.col-lg-10
+        p.mb-0 Antes de ejecutar la siembra del aguacate, es fundamental llevar a cabo una secuencia de acciones técnicas que garanticen el acondicionamiento adecuado del lote. Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo. Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
+        p.mb-0 A continuación, se exploran tres aspectos clave que conforman esta etapa fundamental:
+    
     .bg_img_2.mb-3
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10.mb-5
-          ImagenInfografica.time-line-info.pulso-invertido.mb-5
+        .col-12.col-lg-10
+          ImagenInfografica.time-line-info.pulso-invertido
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema_1/img_8.png')
@@ -107,46 +108,51 @@
               p.mb-0 Antes de sembrar, se marcan los sitios donde irá cada planta, teniendo en cuenta la pendiente y la dirección del sol.
               p.mb-0 El trazado puede ser cuadrado, triangular o en curvas de nivel, según el terreno.
               p.mb-0 Esta labor define el orden, la densidad y la eficiencia en el uso del espacio y la luz.
-          separador
 
+      separador
+        
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-10
           #t_1_2.titulo-segundo.color-acento-contenido
             .h2(data-aos="fade-right") 1.2  Siembra y distancias 
           .mb-3
 
           p.mb-0 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo.
           p.mb-5 El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
-          
-          .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-9.order-2.order-lg-1
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
-                div(titulo="Época  de siembra")
-                  p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado. 
-                  p.ps-5.mb-0 Esto garantiza que las plántulas reciban la humedad necesaria para su adaptación y minimiza el estrés hídrico.
-                  p.ps-5.mb-0 En zonas con climas bimodales, se recomienda planificar la siembra a comienzos del primer semestre.
-                div(titulo="Tipo de material vegetal")
-                  p.ps-5.mb-0 Se utilizan plántulas injertadas entre 60 y 120 cm de altura, provenientes de viveros certificados.
-                  p.ps-5.mb-0 El injerto debe estar bien soldado, con brotes vigorosos, sistema radicular sano y libre de plagas o enfermedades.
-                  p.ps-5.mb-0 La bolsa plástica debe retirarse con cuidado para no dañar las raíces; se recomienda hacer un corte inferior y deslizar hacia arriba.
-                div(titulo="Ahoyado y trasplante")
-                  p.ps-5.mb-0 Los hoyos deben abrirse con al menos 30 días de anticipación y tener dimensiones mínimas de 40 cm de ancho por 50 cm de profundidad.
-                  p.ps-5.mb-0 Se deben llenar con una mezcla de tierra fértil, materia orgánica y enmiendas como fosfato diamónico o cal dolomita, según el análisis de suelo.
-                  p.ps-5.mb-0 El árbol se planta de forma que el cuello de la raíz quede ligeramente por encima del nivel del suelo. 
-                  p.ps-5.mb-0 El hueco se rellena con tierra fina y se compacta ligeramente para evitar bolsas de aire.
-                  p.ps-5.mb-0 Se debe dejar un montículo de 10 cm alrededor del tallo para evitar acumulación de agua.
-                  p.ps-5.mb-0 Se finaliza con un riego de asentamiento y, de ser posible, se coloca cobertura vegetal seca (<I>mulch</I>).
-                div(titulo="Distancias de siembra")
-                  p.ps-5.mb-0 El marco de siembra más utilizado es de 7 X 7 metros, equivalente a 204 árboles por hectárea.
-                  p.ps-5.mb-0 Esta densidad permite un adecuado equilibrio entre penetración de luz, desarrollo radicular y manejo sanitario.
-                  p.ps-5.mb-0 En suelos fértiles o con riego, se pueden usar distancias menores (6 X 6 m), mientras que en terrenos de ladera o con baja fertilidad, se prefieren marcos de 8 X 8 o 9 X 9 m para reducir la competencia.
+      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+        .col-12.col-lg-7.order-2.order-lg-1.mb-3
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
+            div(titulo="Época  de siembra")
+              p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado. 
+              p.ps-5.mb-0 Esto garantiza que las plántulas reciban la humedad necesaria para su adaptación y minimiza el estrés hídrico.
+              p.ps-5.mb-0 En zonas con climas bimodales, se recomienda planificar la siembra a comienzos del primer semestre.
+            div(titulo="Tipo de material vegetal")
+              p.ps-5.mb-0 Se utilizan plántulas injertadas entre 60 y 120 cm de altura, provenientes de viveros certificados.
+              p.ps-5.mb-0 El injerto debe estar bien soldado, con brotes vigorosos, sistema radicular sano y libre de plagas o enfermedades.
+              p.ps-5.mb-0 La bolsa plástica debe retirarse con cuidado para no dañar las raíces; se recomienda hacer un corte inferior y deslizar hacia arriba.
+            div(titulo="Ahoyado y trasplante")
+              p.ps-5.mb-0 Los hoyos deben abrirse con al menos 30 días de anticipación y tener dimensiones mínimas de 40 cm de ancho por 50 cm de profundidad.
+              p.ps-5.mb-0 Se deben llenar con una mezcla de tierra fértil, materia orgánica y enmiendas como fosfato diamónico o cal dolomita, según el análisis de suelo.
+              p.ps-5.mb-0 El árbol se planta de forma que el cuello de la raíz quede ligeramente por encima del nivel del suelo. 
+              p.ps-5.mb-0 El hueco se rellena con tierra fina y se compacta ligeramente para evitar bolsas de aire.
+              p.ps-5.mb-0 Se debe dejar un montículo de 10 cm alrededor del tallo para evitar acumulación de agua.
+              p.ps-5.mb-0 Se finaliza con un riego de asentamiento y, de ser posible, se coloca cobertura vegetal seca (<I>mulch</I>).
+            div(titulo="Distancias de siembra")
+              p.ps-5.mb-0 El marco de siembra más utilizado es de 7 X 7 metros, equivalente a 204 árboles por hectárea.
+              p.ps-5.mb-0 Esta densidad permite un adecuado equilibrio entre penetración de luz, desarrollo radicular y manejo sanitario.
+              p.ps-5.mb-0 En suelos fértiles o con riego, se pueden usar distancias menores (6 X 6 m), mientras que en terrenos de ladera o con baja fertilidad, se prefieren marcos de 8 X 8 o 9 X 9 m para reducir la competencia.
 
-            .col-9.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid")
+        .col-9.col-lg-3.d-flex.order-1.order-lg-2.mb-3
+          figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+            img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid h-100")
 
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-10.mb-3
           p.mb-0 A continuación, se presenta una tabla orientativa de densidad de siembra que permite estimar el número de árboles por hectárea según el marco de plantación seleccionado. 
           p.mb-0 La elección de la distancia depende del vigor del patrón, la fertilidad del suelo y las condiciones topográficas del lote. 
           p.mb-5 Esta información facilita la planificación eficiente del cultivo y el manejo agronómico futuro.
-
+        
+        .col-12.col-lg-10
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
             |  Distribución orientativa de densidad de siembra.
@@ -181,6 +187,7 @@
                   td Bajo vigor
                   td 123
                   td 142
+
     .bloque-texto-t.justify-content-center.align-items-center.mb-0
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/temas/tema_1/img_10.png')

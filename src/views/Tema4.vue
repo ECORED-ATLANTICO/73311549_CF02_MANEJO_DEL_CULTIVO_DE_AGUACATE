@@ -30,30 +30,28 @@
           p.mb-0 Este proceso puede realizarse de forma manual o mediante sistemas semiautomatizados, y debe llevarse a cabo en áreas limpias, con iluminación adecuada y personal capacitado. 
           p.mb-0 Los criterios más comunes de clasificación incluyen:
 
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10.mb-5
-          .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-8.order-2.order-lg-1
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
-                div(titulo="Tamaño y peso")
-                  p.ps-5.mb-0 Los frutos se agrupan según rangos de calibre establecidos por el mercado nacional o internacional, definidos en gramos o número de unidades por caja. 
-                  p.ps-5.mb-0 Este criterio garantiza uniformidad en la presentación del producto, facilita el empaque y asegura que se cumplan los requisitos del comprador.
-                div(titulo="Color externo")
-                  p.ps-5.mb-0 Se clasifica la fruta según el grado de desarrollo del color de la cáscara, diferenciando entre fruta verde (inmadura), pintona (en transición) o madura (lista para consumo).
-                  p.ps-5.mb-0 Esta clasificación permite segmentar la fruta según su destino inmediato: venta en fresco, maduración controlada o procesamiento.
-                div(titulo="Forma y simetría")
-                  p.ps-5.mb-0 Se excluyen frutos con deformaciones evidentes, curvaturas pronunciadas, crecimiento desigual o daños mecánicos visibles que afecten su apariencia.
-                  p.ps-5.mb-0 La forma regular y simétrica es un requisito importante para mercados exigentes, especialmente en exportación.
-                div(titulo="Estado sanitario")
-                  p.ps-5.mb-0 Se identifican y retiran frutos con signos de enfermedades fúngicas, heridas abiertas, picaduras de insectos, manchas negras (roña), moho, o cualquier daño que pueda comprometer la inocuidad y vida útil del producto. 
-                  p.ps-5.mb-0 Esta inspección es clave para evitar la contaminación cruzada.
-                div(titulo="Firmeza y consistencia")
-                  p.ps-5.mb-0 Se verifica mediante presión manual suave si el fruto mantiene una firmeza uniforme, sin zonas blandas, hundimientos o signos de sobremaduración.
-                  p.ps-5.mb-0 Los frutos demasiado blandos o con textura irregular se excluyen por riesgo de deterioro durante el transporte y almacenamiento.
+      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+        .col-12.col-lg-7.order-2.order-lg-1
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
+            div(titulo="Tamaño y peso")
+              p.ps-5.mb-0 Los frutos se agrupan según rangos de calibre establecidos por el mercado nacional o internacional, definidos en gramos o número de unidades por caja. 
+              p.ps-5.mb-0 Este criterio garantiza uniformidad en la presentación del producto, facilita el empaque y asegura que se cumplan los requisitos del comprador.
+            div(titulo="Color externo")
+              p.ps-5.mb-0 Se clasifica la fruta según el grado de desarrollo del color de la cáscara, diferenciando entre fruta verde (inmadura), pintona (en transición) o madura (lista para consumo).
+              p.ps-5.mb-0 Esta clasificación permite segmentar la fruta según su destino inmediato: venta en fresco, maduración controlada o procesamiento.
+            div(titulo="Forma y simetría")
+              p.ps-5.mb-0 Se excluyen frutos con deformaciones evidentes, curvaturas pronunciadas, crecimiento desigual o daños mecánicos visibles que afecten su apariencia.
+              p.ps-5.mb-0 La forma regular y simétrica es un requisito importante para mercados exigentes, especialmente en exportación.
+            div(titulo="Estado sanitario")
+              p.ps-5.mb-0 Se identifican y retiran frutos con signos de enfermedades fúngicas, heridas abiertas, picaduras de insectos, manchas negras (roña), moho, o cualquier daño que pueda comprometer la inocuidad y vida útil del producto. 
+              p.ps-5.mb-0 Esta inspección es clave para evitar la contaminación cruzada.
+            div(titulo="Firmeza y consistencia")
+              p.ps-5.mb-0 Se verifica mediante presión manual suave si el fruto mantiene una firmeza uniforme, sin zonas blandas, hundimientos o signos de sobremaduración.
+              p.ps-5.mb-0 Los frutos demasiado blandos o con textura irregular se excluyen por riesgo de deterioro durante el transporte y almacenamiento.
 
-            .col-9.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid")
+        .col-9.col-lg-3.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
+          figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+            img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid h-100")
 
       separador
 
@@ -111,33 +109,31 @@
               figure
                 img(src='@/assets/curso/temas/tema_4/img_8.svg', class="img-fluid")
 
-        .col-12.col-lg-12.mb-5
-           .row.justify-content-center.align-items-center.mb-3
-            .col-8.col-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_4/img_10.png',class="img-fluid h-100 w-100 object-fit-cover")
-            .col-12.col-lg-8.mb-lg-0.mb-3
-              .custom-slider.p-3.p-sm-3
-                SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-                  .tarjeta.color-primario-5
-                    .tarjeta--1
-                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Requisitos fitosanitarios
-                    .tarjeta--slider__content.text-center En exportaciones de aguacate, es obligatorio cumplir con los protocolos fitosanitarios exigidos por el país de destino. Esto garantiza el acceso a mercados internacionales y la inocuidad del producto, evitando restricciones comerciales por incumplimientos normativos.
-                  .tarjeta.color-primario-5
-                    .tarjeta--2
-                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Tratamientos cuarentenarios
-                    .tarjeta--slider__content.text-center Según la normativa del país importador, el fruto puede requerir tratamiento cuarentenario. Esto incluye aplicaciones de frío controlado, fumigación autorizada o inspección oficial previa al embarque, para evitar la diseminación de plagas y enfermedades.
-                  .tarjeta.color-primario-5
-                    .tarjeta--3
-                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Trazabilidad documental
-                    .tarjeta--slider__content.text-center Todo lote de aguacate destinado a exportación debe contar con trazabilidad completa. La documentación incluye origen del cultivo, lote, fecha de empaque, variedad, prácticas poscosecha y datos del productor o centro de acopio autorizado.
-                  .tarjeta.color-primario-5
-                    .tarjeta--4
-                    .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Monitoreo de condiciones
-                    .tarjeta--slider__content.text-center Durante el transporte internacional, se debe registrar y monitorear la temperatura y humedad relativa en tiempo real. Esto garantiza condiciones óptimas para conservar la calidad del fruto y cumplir los estándares exigidos por el cliente.
+      .row.justify-content-center.align-items-center.mb-3
+        .col-8.col-lg-2.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema_4/img_10.png',class="img-fluid h-100 w-100 object-fit-cover")
+        .col-12.col-lg-8.mb-lg-0.mb-3
+         .custom-slider.p-3.p-sm-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+              .tarjeta.color-primario-5
+                .tarjeta--1
+                .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Requisitos fitosanitarios
+                .tarjeta--slider__content.text-center En exportaciones de aguacate, es obligatorio cumplir con los protocolos fitosanitarios exigidos por el país de destino. Esto garantiza el acceso a mercados internacionales y la inocuidad del producto, evitando restricciones comerciales por incumplimientos normativos.
+              .tarjeta.color-primario-5
+                .tarjeta--2
+                .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Tratamientos cuarentenarios
+                .tarjeta--slider__content.text-center Según la normativa del país importador, el fruto puede requerir tratamiento cuarentenario. Esto incluye aplicaciones de frío controlado, fumigación autorizada o inspección oficial previa al embarque, para evitar la diseminación de plagas y enfermedades.
+              .tarjeta.color-primario-5
+                .tarjeta--3
+                .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Trazabilidad documental
+                .tarjeta--slider__content.text-center Todo lote de aguacate destinado a exportación debe contar con trazabilidad completa. La documentación incluye origen del cultivo, lote, fecha de empaque, variedad, prácticas poscosecha y datos del productor o centro de acopio autorizado.
+              .tarjeta.color-primario-5
+                .tarjeta--4
+                .tarjeta--slider__title.tarjeta.color-primario-60.mb-3.text-center.text-white.rounded-0 Monitoreo de condiciones
+                .tarjeta--slider__content.text-center Durante el transporte internacional, se debe registrar y monitorear la temperatura y humedad relativa en tiempo real. Esto garantiza condiciones óptimas para conservar la calidad del fruto y cumplir los estándares exigidos por el cliente.
        
-        .col-12.col-lg-10.mb-3
-         p.mb-0 El transporte eficiente y técnicamente controlado permite conservar el valor comercial del fruto, prevenir pérdidas y cumplir con las exigencias de calidad e inocuidad del mercado nacional e internacional.
+      p.mb-0 El transporte eficiente y técnicamente controlado permite conservar el valor comercial del fruto, prevenir pérdidas y cumplir con las exigencias de calidad e inocuidad del mercado nacional e internacional.
 </template>
 
 <script>

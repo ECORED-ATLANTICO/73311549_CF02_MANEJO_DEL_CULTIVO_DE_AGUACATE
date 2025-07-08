@@ -57,38 +57,36 @@
     .mb-3
     .bg_img_6.mb-3
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10
-          .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
-              p.mb-0 El manejo en campo del fruto de aguacate, posterior a la cosecha, es determinante para conservar su calidad, prolongar su vida útil y evitar pérdidas por daños físicos o contaminación.
-              p.mb-0 Esta etapa incluye una secuencia de acciones clave que deben ejecutarse de forma higiénica, ordenada y oportuna, desde la preselección hasta el transporte hacia la planta de poscosecha.
-              p.mb-0 Aplicar correctamente este protocolo mejora la eficiencia operativa y asegura un producto óptimo para su comercialización.
-            .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_3/img_5.png', class="img-fluid")
-        .col-12.col-lg-10
-          .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-            .col-10.col-lg-5.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_3/img_6.png', class="img-fluid")
-            .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
-              LineaTiempoD.color-adicional-3
-                .row(numero="1" titulo="Preselección en campo")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Durante el acopio inicial, descarta frutos con daños visibles como picaduras de insectos, deformaciones, necrosis o presencia de hongos.
-                    p.text-small.mb-0 Esta selección evita pérdidas posteriores, reduce la carga microbiana y mejora la eficiencia en la planta de poscosecha.
-                .row(numero="2" titulo="Acondicionamiento del fruto")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Ubica los frutos seleccionados en canastillas plásticas limpias, ventiladas, sin sobrepasar cuatro capas ni 20 kg por unidad. 
-                    p.text-small.mb-0 Las canastillas deben ser lisas, resistentes, fáciles de lavar y con dimensiones estandarizadas para facilitar el transporte.
-                .row(numero="3" titulo="Condiciones del acopio")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Evita que el fruto toque el suelo. Ubica las canastillas en áreas sombreadas, ventiladas y limpias, protegidas de animales, lluvia o contaminantes.
-                    p.text-small.mb-0 Mantén el tiempo entre la recolección y el ingreso a planta lo más corto posible.
-                .row(numero="4" titulo="Transporte hasta planta")
-                  .col-md-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Transporta los frutos en vehículos limpios, libres de residuos, con ventilación adecuada y protegidos del sol directo.
-                    p.text-small.mb-0 Asegura el acomodo para evitar compresión, fricción o daños térmicos que afecten su calidad y vida útil.
+        .col-12.col-lg-6.order-2.order-lg-1.mb-lg-0.mb-3
+          p.mb-0 El manejo en campo del fruto de aguacate, posterior a la cosecha, es determinante para conservar su calidad, prolongar su vida útil y evitar pérdidas por daños físicos o contaminación.
+          p.mb-0 Esta etapa incluye una secuencia de acciones clave que deben ejecutarse de forma higiénica, ordenada y oportuna, desde la preselección hasta el transporte hacia la planta de poscosecha.
+          p.mb-0 Aplicar correctamente este protocolo mejora la eficiencia operativa y asegura un producto óptimo para su comercialización.
+        .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema_3/img_5.png', class="img-fluid")
+
+      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+        .col-10.col-lg-4.d-flex.mb-lg-0.mb-3
+          figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+            img(src='@/assets/curso/temas/tema_3/img_6.png', class="img-fluid h-100")
+        .col-12.col-lg-6.order-2.order-lg-1.mb-lg-0.mb-3
+          LineaTiempoD.color-adicional-3
+            .row(numero="1" titulo="Preselección en campo")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Durante el acopio inicial, descarta frutos con daños visibles como picaduras de insectos, deformaciones, necrosis o presencia de hongos.
+                p.text-small.mb-0 Esta selección evita pérdidas posteriores, reduce la carga microbiana y mejora la eficiencia en la planta de poscosecha.
+            .row(numero="2" titulo="Acondicionamiento del fruto")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Ubica los frutos seleccionados en canastillas plásticas limpias, ventiladas, sin sobrepasar cuatro capas ni 20 kg por unidad. 
+                p.text-small.mb-0 Las canastillas deben ser lisas, resistentes, fáciles de lavar y con dimensiones estandarizadas para facilitar el transporte.
+            .row(numero="3" titulo="Condiciones del acopio")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Evita que el fruto toque el suelo. Ubica las canastillas en áreas sombreadas, ventiladas y limpias, protegidas de animales, lluvia o contaminantes.
+                p.text-small.mb-0 Mantén el tiempo entre la recolección y el ingreso a planta lo más corto posible.
+            .row(numero="4" titulo="Transporte hasta planta")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Transporta los frutos en vehículos limpios, libres de residuos, con ventilación adecuada y protegidos del sol directo.
+                p.text-small.mb-0 Asegura el acomodo para evitar compresión, fricción o daños térmicos que afecten su calidad y vida útil.
 
 </template>
 
