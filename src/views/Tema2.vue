@@ -30,9 +30,9 @@
           p.mb-0 Durante los primeros meses del establecimiento del cultivo, las plantas son vulnerables a factores climáticos como el viento, así como a interferencias con otras especies vegetales (arvenses) que compiten por agua, luz y nutrientes.
           p.mb-0 Por eso, es fundamental realizar labores culturales oportunas que contribuyan a la formación estructural de los árboles, al mejoramiento del suelo y a la prevención de problemas sanitarios.
         
-        .col-12.col-lg-10.mb-0
+        .col-12.col-lg-10.mb-0(data-aos="fade-up-right")
           .tarjeta.tarjeta--fondo__slider.p-4
-            SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4(data-aos="fade-up-right")
+            SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-8.order-2.order-lg-1.mb-0
                   h5 Tutorado

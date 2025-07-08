@@ -57,27 +57,27 @@
       .col-12.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")
+    
 
-    .row.d-flex.align-items-start.justify-content-center.mb-5
-      .col-lg-1 
-      .col-12.col-lg-3.d-flex.mb-lg-0.mb-0
+    
+    .row.d-flex.align-items-center.justify-content-center.mb-5
+      .col-12.col-lg-4.d-flex.mb-lg-0.mb-0
         figure.d-flex.flex-column.justify-content-center.align-items-stretch.w-100.h-100
           img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid w-100 ")
-      .col-12.col-lg-7
+      .col-12.col-lg-6
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
           div(titulo="Cal agrícola o dolomita")
-            p.ps-0.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
-            p.ps-0.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
-            p.ps-0.mb-0 Se aplica de forma uniforme 30 a 45 días antes de la siembra, según análisis de suelo.
+            p.ps-3.mb-0 Se utiliza para corregir suelos ácidos (pH < 5.5), neutralizando la toxicidad del aluminio y aumentando la disponibilidad de calcio y magnesio.
+            p.ps-3.mb-0 La cal agrícola contiene carbonato de calcio, mientras que la dolomita también aporta magnesio.
+            p.ps-3.mb-0 Se aplica de forma uniforme 30 a 45 días antes de la siembra, según análisis de suelo.
           div(titulo="Yeso agrícola")
-            p.ps-0.mb-0 Es ideal para suelos con alto contenido de sodio, ya que mejora la estructura y la permeabilidad sin modificar el pH. 
-            p.ps-0.mb-0 Libera calcio que desplaza el sodio del complejo de intercambio, facilitando su lavado con riego o lluvia.
-            p.ps-0.mb-0 Su uso está indicado especialmente en suelos compactados o con encostramiento superficial.
+            p.ps-3.mb-0 Es ideal para suelos con alto contenido de sodio, ya que mejora la estructura y la permeabilidad sin modificar el pH. 
+            p.ps-3.mb-0 Libera calcio que desplaza el sodio del complejo de intercambio, facilitando su lavado con riego o lluvia.
+            p.ps-3.mb-0 Su uso está indicado especialmente en suelos compactados o con encostramiento superficial.
           div(titulo="Materia orgánica")
-            p.ps-0.mb-0 Aporta nutrientes, mejora la estructura y retención de agua, y activa la vida microbiana del suelo.
-            p.ps-0.mb-0 Se recomienda compost bien descompuesto, estiércol tratado o bokashi, aplicados antes de la siembra o alrededor del árbol en producción.
-            p.ps-0.mb-0 Su uso continuo contribuye a la sostenibilidad del cultivo y la salud del suelo.
-      .col-lg-1
+            p.ps-3.mb-0 Aporta nutrientes, mejora la estructura y retención de agua, y activa la vida microbiana del suelo.
+            p.ps-3.mb-0 Se recomienda compost bien descompuesto, estiércol tratado o bokashi, aplicados antes de la siembra o alrededor del árbol en producción.
+            p.ps-3.mb-0 Su uso continuo contribuye a la sostenibilidad del cultivo y la salud del suelo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-2.mb-lg-0.mb-3
@@ -125,7 +125,7 @@
           p.mb-0 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo.
           p.mb-5 El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
       .row.d-flex.align-items-start.justify-content-center.mb-3
-        .col-12.col-lg-7.order-2.order-lg-1.mb-3
+        .col-12.col-lg-6.order-2.order-lg-1.mb-3
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Época  de siembra")
               p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado. 
