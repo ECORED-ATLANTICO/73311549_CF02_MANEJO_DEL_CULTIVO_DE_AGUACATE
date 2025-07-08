@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Cosecha
+      h1(data-aos="fade-up-right") Cosecha
     .bg_img_5.mb-3
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-5.mb-lg-0.mb-3
@@ -65,7 +65,7 @@
           figure
             img(src='@/assets/curso/temas/tema_3/img_5.png', class="img-fluid")
 
-      .row.d-flex.align-items-start.justify-content-center.mb-3
+      .row.d-flex.align-items-start.justify-content-center.mb-3(data-aos="fade-up-right")
         .col-10.col-lg-4.d-flex.mb-lg-0.mb-3
           figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
             img(src='@/assets/curso/temas/tema_3/img_6.png', class="img-fluid h-100")

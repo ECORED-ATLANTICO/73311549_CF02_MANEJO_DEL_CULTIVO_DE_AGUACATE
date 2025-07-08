@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Poscosecha
+      h1(data-aos="fade-up-right") Poscosecha
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-5.mb-lg-0.mb-3
         figure
@@ -71,9 +71,9 @@
           p.mb-0 Las condiciones recomendadas para el almacenamiento son:
       
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10.mb-5
+        .col-12.col-lg-10.mb-5(data-aos="fade-up-right")
           .tarjeta.tarjeta--fondo__slider.p-4
-            SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+            SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4()
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-6.order-2.order-lg-1.mb-0
                   h5.mb-1 Temperatura

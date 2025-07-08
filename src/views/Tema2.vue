@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Manejo agronómico 
+      h1(data-aos="fade-up-right") Manejo agronómico 
     .bg_img_3.mb-3
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-4.mb-lg-0.mb-3
@@ -32,7 +32,7 @@
         
         .col-12.col-lg-10.mb-0
           .tarjeta.tarjeta--fondo__slider.p-4
-            SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+            SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4(data-aos="fade-up-right")
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-8.order-2.order-lg-1.mb-0
                   h5 Tutorado
@@ -100,7 +100,7 @@
             h5 Tabla 2.
             |  Requerimientos nutricionales por etapa del aguacate.
           .tabla-a.mb-3
-            table
+            table(data-aos="fade-up-right")
               caption.mt-3
                 p <b>Fuente.</b> SENA, 2025.
               thead

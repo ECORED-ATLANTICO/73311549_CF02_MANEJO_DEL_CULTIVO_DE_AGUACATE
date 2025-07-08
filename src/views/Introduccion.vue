@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1(data-aos="fade-up-right") Introducción
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.order-2.order-lg-1
         p.mb-0 El componente formativo “Manejo del cultivo de aguacate, cosecha y postcosecha” ofrece al aprendiz herramientas técnicas y prácticas para abordar el proceso integral de producción del aguacate, desde la preparación del terreno y la siembra hasta la recolección, selección y conservación del fruto. 
