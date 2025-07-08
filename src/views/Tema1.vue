@@ -94,16 +94,19 @@
                 img(src='@/assets/curso/temas/tema_1/img_8.png')
 
             .tarjeta.color-adicional-1(x="18%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .numero-etiqueta 1
               .h5.mb-3 Labores de preparación del terreno
               p.mb-0 El terreno debe ser acondicionado con labores mecánicas que mejoren su estructura.
               p.mb-0 Se inicia con el desmonte y subsolado para romper capas compactadas, seguido de arado y rastrillado para aflojar el suelo y nivelar la superficie.
               p.mb-0 Esto permite una mejor infiltración del agua y facilita el crecimiento radicular uniforme.
             .tarjeta.color-adicional-1(x="48.6%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .numero-etiqueta 2
               .h5.mb-3 Disponibilidad de agua
               p.mb-0 El lote debe contar con acceso continuo a una fuente de agua limpia, ya sea superficial o subterránea.
               p.mb-0 Esta disponibilidad es clave en el establecimiento, floración y llenado del fruto. 
               p.mb-0 Se recomienda analizar la calidad del agua para evitar problemas de salinidad o acumulación de sodio en el suelo.
             .tarjeta.color-adicional-1(x="80.2%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+              .numero-etiqueta 3
               .h5.mb-3 Trazado del lote
               p.mb-0 Antes de sembrar, se marcan los sitios donde irá cada planta, teniendo en cuenta la pendiente y la dirección del sol.
               p.mb-0 El trazado puede ser cuadrado, triangular o en curvas de nivel, según el terreno.
