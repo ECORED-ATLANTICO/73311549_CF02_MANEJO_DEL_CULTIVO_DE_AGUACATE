@@ -84,14 +84,23 @@
                 .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema_4/img_7.png', class="img-fluid")
-        .col-12.col-lg-10.mb-3
-          .row.justify-content-center.align-items-center.mb-3
-            .col-12.col-lg-10.order-2.order-lg-1
-              p.mb-0 El transporte del aguacate es una etapa clave en la cadena poscosecha, ya que de su correcta ejecución depende la conservación de la calidad física y fisiológica del fruto hasta su destino final. Este proceso debe realizarse en vehículos adecuados, con superficies internas limpias, sin residuos ni contaminantes, y preferiblemente dotados con aislamiento térmico o sistemas de refrigeración, especialmente en recorridos largos o bajo temperaturas ambientales elevadas.
-            .col-9.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_4/img_8.svg', class="img-fluid")
-
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8.order-2.order-lg-1
+          p.mb-0 El transporte del aguacate es una etapa clave en la cadena poscosecha, ya que de su correcta ejecución depende la conservación de la calidad física y fisiológica del fruto hasta su destino final. Este proceso debe realizarse en vehículos adecuados, con superficies internas limpias, sin residuos ni contaminantes, y preferiblemente dotados con aislamiento térmico o sistemas de refrigeración, especialmente en recorridos largos o bajo temperaturas ambientales elevadas.
+        .col-9.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema_4/img_8.svg', class="img-fluid")
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-9.col-lg-3.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema_4/img_9.png', class="img-fluid")
+        .col-12.col-lg-7
+          p.mb-0 Para preservar la integridad del producto durante el traslado, las cajas o canastillas deben apilarse correctamente, sin sobrepeso, evitando deformaciones o bloqueos que impidan la circulación de aire. 
+          p.mb-3 Se deben minimizar las vibraciones, los impactos, la exposición directa al sol y las altas temperaturas, ya que estas condiciones pueden acelerar la maduración, provocar daños mecánicos internos y reducir la vida útil del aguacate.
+          .cajon.color-secundario-5-s.p-4.mb-3
+            p.mb-0 En el caso de envíos a mercados internacionales, se deben cumplir estrictamente los protocolos fitosanitarios exigidos por el país de destino. 
+            p.mb-0 Esto incluye, según el requerimiento del cliente o normativa de importación:
       .row.justify-content-center.align-items-center.mb-3
         .col-8.col-lg-2.mb-lg-0.mb-3
           figure
