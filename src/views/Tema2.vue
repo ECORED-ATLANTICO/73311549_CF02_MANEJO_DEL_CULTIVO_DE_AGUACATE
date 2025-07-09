@@ -12,9 +12,7 @@
           figure
             img(src='@/assets/curso/temas/tema_2/img_1.png', class="img-fluid")
         .col-12.col-lg-8.mb-0
-          p.mb-0 El manejo agronómico del cultivo de aguacate comprende todas las actividades que permiten el crecimiento saludable de las plantas desde su establecimiento hasta la fase productiva.
-          p.mb-0 Estas labores deben planificarse de manera técnica, respetando los requerimientos específicos de la especie y su adaptación al entorno. 
-          p.mb-0 En esta etapa, se destaca la importancia de las labores culturales como el tutorado, el plateo y las podas, además del diseño y aplicación de un programa de fertilización racional y un plan de Manejo Integrado de Plagas y Enfermedades (MIPE), que asegure la sanidad vegetal, la sostenibilidad del cultivo y la calidad de los frutos.
+          p.mb-0 El manejo agronómico del cultivo de aguacate comprende todas las actividades que permiten el crecimiento saludable de las plantas desde su establecimiento hasta la fase productiva. Estas labores deben planificarse de manera técnica, respetando los requerimientos específicos de la especie y su adaptación al entorno.  En esta etapa, se destaca la importancia de las labores culturales como el tutorado, el plateo y las podas, además del diseño y aplicación de un programa de fertilización racional y un plan de Manejo Integrado de Plagas y Enfermedades (MIPE), que asegure la sanidad vegetal, la sostenibilidad del cultivo y la calidad de los frutos.
 
       separador
 
@@ -27,8 +25,7 @@
           figure
             img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .col-12.col-lg-10.mb-5
-          p.mb-0 Durante los primeros meses del establecimiento del cultivo, las plantas son vulnerables a factores climáticos como el viento, así como a interferencias con otras especies vegetales (arvenses) que compiten por agua, luz y nutrientes.
-          p.mb-0 Por eso, es fundamental realizar labores culturales oportunas que contribuyan a la formación estructural de los árboles, al mejoramiento del suelo y a la prevención de problemas sanitarios.
+          p.mb-0 Durante los primeros meses del establecimiento del cultivo, las plantas son vulnerables a factores climáticos como el viento, así como a interferencias con otras especies vegetales (<i>arvenses</i>) que compiten por agua, luz y nutrientes. Por eso, es fundamental realizar labores culturales oportunas que contribuyan a la formación estructural de los árboles, al mejoramiento del suelo y a la prevención de problemas sanitarios.
         
         .col-12.col-lg-10.mb-0(data-aos="fade-up-right")
           .tarjeta.tarjeta--fondo__slider.p-4
@@ -76,8 +73,7 @@
           figure
             img(src='@/assets/curso/temas/tema_2/img_7.png', class="img-fluid")
         .col-12.col-lg-8.mb-0
-          p.mb-0 La correcta nutrición del cultivo de aguacate y el manejo fitosanitario sostenible son pilares fundamentales para lograr productividad, calidad e inocuidad del fruto.
-          p.mb-0 Para ello, se deben implementar de manera articulada prácticas de fertilización balanceada y el enfoque de Manejo Integrado de Plagas y Enfermedades (MIPE), el cual permite reducir el uso indiscriminado de agroquímicos, preservar la biodiversidad y cumplir con estándares de sostenibilidad exigidos por los mercados actuales.
+          p.mb-0 La correcta nutrición del cultivo de aguacate y el manejo fitosanitario sostenible son pilares fundamentales para lograr productividad, calidad e inocuidad del fruto. Para ello, se deben implementar de manera articulada prácticas de fertilización balanceada y el enfoque de Manejo Integrado de Plagas y Enfermedades (MIPE), el cual permite reducir el uso indiscriminado de agroquímicos, preservar la biodiversidad y cumplir con estándares de sostenibilidad exigidos por los mercados actuales.
 
       .row.d-flex.align-items-stretch.justify-content-center.mb-5
         .col-9.col-lg-4.d-none.d-lg-flex.p-0
@@ -85,10 +81,8 @@
             img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid").h-100
         .col-12.col-lg-6.ps-0.d-flex
           .w-100.d-flex.flex-column
-            .tarjeta.color-secundario-5.p-3.rounded-0.h-100
-              p.mb-0 La fertilización técnica del aguacate es un proceso agronómico planificado que busca suplir las necesidades nutricionales de la planta de manera eficiente y sostenible, para lograr un desarrollo vigoroso, alta productividad y buena calidad del fruto. 
-              p.mb-0 Esta especie presenta un sistema radicular superficial, poco ramificado y sin pelos absorbentes, lo que reduce su capacidad natural para extraer nutrientes del suelo.
-              p.mb-0 Por esta razón, el suministro de elementos esenciales debe realizarse de forma precisa, controlada y oportuna, con base en análisis de suelo y foliares, así como en la fase fenológica en la que se encuentre el cultivo.
+            .tarjeta.color-secundario-5.p-5.rounded-0.h-100
+              p.mb-0 La fertilización técnica del aguacate es un proceso agronómico planificado que busca suplir las necesidades nutricionales de la planta de manera eficiente y sostenible, para lograr un desarrollo vigoroso, alta productividad y buena calidad del fruto.  Esta especie presenta un sistema radicular superficial, poco ramificado y sin pelos absorbentes, lo que reduce su capacidad natural para extraer nutrientes del suelo. Por esta razón, el suministro de elementos esenciales debe realizarse de forma precisa, controlada y oportuna, con base en análisis de suelo y foliares, así como en la fase fenológica en la que se encuentre el cultivo.
       
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-5   
@@ -102,7 +96,7 @@
           .tabla-a.mb-3
             table(data-aos="fade-up-right")
               caption.mt-3
-                p <b>Fuente.</b> SENA, 2025.
+                p <b>Fuente:</b> SENA, 2025.
               thead
                 tr
                   th Etapa del cultivo
@@ -126,8 +120,7 @@
                   td Potasio, boro y magnesio
                   td Mejora de calidad, sabor, textura y vida poscosecha.
         .col-12.col-lg-10.mb-0
-          p.mb-0 El plan de fertilización debe actualizarse anualmente, ajustándose a los resultados de los análisis del lote, al comportamiento de la variedad sembrada y a las condiciones climáticas locales.
-          p.mb-5 Un programa bien estructurado no solo mejora la producción y la calidad del fruto, sino que fortalece la resistencia del cultivo a plagas, enfermedades y condiciones de estrés.
+          p.mb-5 El plan de fertilización debe actualizarse anualmente, ajustándose a los resultados de los análisis del lote, al comportamiento de la variedad sembrada y a las condiciones climáticas locales. Un programa bien estructurado no solo mejora la producción y la calidad del fruto, sino que fortalece la resistencia del cultivo a plagas, enfermedades y condiciones de estrés.
       
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.mb-5 
@@ -147,12 +140,10 @@
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Monitoreo")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. 
-              p.text-small.mb-0 Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
+              p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
           .row(numero="2" titulo="Umbrales de acción")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos.
-              p.text-small.mb-0 Esto evita aplicaciones innecesarias.
+              p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos. Esto evita aplicaciones innecesarias.
           .row(numero="3" titulo="Control biológico")
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-0 Uso de organismos benéficos como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias como <I>Bacillus thuringiensis</I> que controlan plagas sin afectar el ambiente.
@@ -161,8 +152,7 @@
               p.text-small.mb-0 Incluye prácticas como podas sanitarias, manejo de coberturas vegetales, eliminación de residuos de cosecha, rotación de cultivos o barreras vivas que dificulten el ingreso de insectos.
           .row(numero="5" titulo="Uso racional de agroquímicos")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 Cuando es necesario aplicar insecticidas, se eligen productos de categoría toxicológica baja (III y IV), respetando los periodos de carencia y reentrada.
-              p.text-small.mb-0 Se recomienda alternar principios activos para evitar resistencia.
+              p.text-small.mb-0 Cuando es necesario aplicar insecticidas, se eligen productos de categoría toxicológica baja (III y IV), respetando los periodos de carencia y reentrada. Se recomienda alternar principios activos para evitar resistencia.
       .col-7.col-lg-4.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
         figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid ")

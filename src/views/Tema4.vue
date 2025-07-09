@@ -11,9 +11,7 @@
         figure
           img(src='@/assets/curso/temas/tema_4/img_1.png', class="img-fluid")
       .col-12.col-lg-7.mb-0
-        p.mb-0 La etapa de poscosecha en el cultivo de aguacate comprende el conjunto de procesos realizados después de la recolección del fruto y antes de su comercialización o transformación.
-        p.mb-0 Su objetivo principal es conservar la calidad, inocuidad y condiciones físicas del aguacate, optimizando su presentación comercial y su vida útil, tanto en mercado nacional como internacional.
-        p.mb-0 Esta fase incluye acciones como la limpieza, clasificación, empaque, almacenamiento y transporte, todas bajo condiciones técnicas que minimicen daños mecánicos, eviten contaminaciones y conserven el estado fisiológico del fruto.
+        p.mb-0 La etapa de poscosecha en el cultivo de aguacate comprende el conjunto de procesos realizados después de la recolección del fruto y antes de su comercialización o transformación. Su objetivo principal es conservar la calidad, inocuidad y condiciones físicas del aguacate, optimizando su presentación comercial y su vida útil, tanto en mercado nacional como internacional. Esta fase incluye acciones como la limpieza, clasificación, empaque, almacenamiento y transporte, todas bajo condiciones técnicas que minimicen daños mecánicos, eviten contaminaciones y conserven el estado fisiológico del fruto.
 
       separador
 
@@ -34,20 +32,15 @@
         .col-12.col-lg-7.order-2.order-lg-1
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Tamaño y peso")
-              p.ps-5.mb-0 Los frutos se agrupan según rangos de calibre establecidos por el mercado nacional o internacional, definidos en gramos o número de unidades por caja. 
-              p.ps-5.mb-0 Este criterio garantiza uniformidad en la presentación del producto, facilita el empaque y asegura que se cumplan los requisitos del comprador.
+              p.ps-5.mb-0 Los frutos se agrupan según rangos de calibre establecidos por el mercado nacional o internacional, definidos en gramos o número de unidades por caja. Este criterio garantiza uniformidad en la presentación del producto, facilita el empaque y asegura que se cumplan los requisitos del comprador.
             div(titulo="Color externo")
-              p.ps-5.mb-0 Se clasifica la fruta según el grado de desarrollo del color de la cáscara, diferenciando entre fruta verde (inmadura), pintona (en transición) o madura (lista para consumo).
-              p.ps-5.mb-0 Esta clasificación permite segmentar la fruta según su destino inmediato: venta en fresco, maduración controlada o procesamiento.
+              p.ps-5.mb-0 Se clasifica la fruta según el grado de desarrollo del color de la cáscara, diferenciando entre fruta verde (inmadura), pintona (en transición) o madura (lista para consumo). Esta clasificación permite segmentar la fruta según su destino inmediato: venta en fresco, maduración controlada o procesamiento.
             div(titulo="Forma y simetría")
-              p.ps-5.mb-0 Se excluyen frutos con deformaciones evidentes, curvaturas pronunciadas, crecimiento desigual o daños mecánicos visibles que afecten su apariencia.
-              p.ps-5.mb-0 La forma regular y simétrica es un requisito importante para mercados exigentes, especialmente en exportación.
+              p.ps-5.mb-0 Se excluyen frutos con deformaciones evidentes, curvaturas pronunciadas, crecimiento desigual o daños mecánicos visibles que afecten su apariencia. La forma regular y simétrica es un requisito importante para mercados exigentes, especialmente en exportación.
             div(titulo="Estado sanitario")
-              p.ps-5.mb-0 Se identifican y retiran frutos con signos de enfermedades fúngicas, heridas abiertas, picaduras de insectos, manchas negras (roña), moho, o cualquier daño que pueda comprometer la inocuidad y vida útil del producto. 
-              p.ps-5.mb-0 Esta inspección es clave para evitar la contaminación cruzada.
+              p.ps-5.mb-0 Se identifican y retiran frutos con signos de enfermedades fúngicas, heridas abiertas, picaduras de insectos, manchas negras (roña), moho, o cualquier daño que pueda comprometer la inocuidad y vida útil del producto. Esta inspección es clave para evitar la contaminación cruzada.
             div(titulo="Firmeza y consistencia")
-              p.ps-5.mb-0 Se verifica mediante presión manual suave si el fruto mantiene una firmeza uniforme, sin zonas blandas, hundimientos o signos de sobremaduración.
-              p.ps-5.mb-0 Los frutos demasiado blandos o con textura irregular se excluyen por riesgo de deterioro durante el transporte y almacenamiento.
+              p.ps-5.mb-0 Se verifica mediante presión manual suave si el fruto mantiene una firmeza uniforme, sin zonas blandas, hundimientos o signos de sobremaduración. Los frutos demasiado blandos o con textura irregular se excluyen por riesgo de deterioro durante el transporte y almacenamiento.
 
         .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
           figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
@@ -64,11 +57,7 @@
           figure
             img(src='@/assets/curso/temas/tema_4/img_4.svg', class="img-fluid")
         .col-12.col-lg-10
-          p.mb-0 Una vez empacados, los frutos deben almacenarse en condiciones controladas que retarden la maduración y conserven sus características comerciales.
-          p.mb-0 El almacenamiento del aguacate varía según el estado fisiológico del fruto, el destino final y el tiempo estimado hasta su consumo. 
-          p.mb-0 El aguacate es sensible al etileno (gas que acelera la maduración).
-          p.mb-0 Por tanto, debe almacenarse lejos de productos climatéricos como banano, mango o manzana, especialmente si no se desea acelerar el proceso de maduración.
-          p.mb-0 Las condiciones recomendadas para el almacenamiento son:
+          p.mb-0 Una vez empacados, los frutos deben almacenarse en condiciones controladas que retarden la maduración y conserven sus características comerciales. El almacenamiento del aguacate varía según el estado fisiológico del fruto, el destino final y el tiempo estimado hasta su consumo.  El aguacate es sensible al etileno (gas que acelera la maduración). Por tanto, debe almacenarse lejos de productos climatéricos como banano, mango o manzana, especialmente si no se desea acelerar el proceso de maduración. Las condiciones recomendadas para el almacenamiento son:
       
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-5(data-aos="fade-up-right")
@@ -77,34 +66,28 @@
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-6.order-2.order-lg-1.mb-0
                   h5.mb-1 Temperatura
-                  p.mb-0 El aguacate debe almacenarse a temperaturas controladas para conservar su firmeza, evitar la maduración prematura y prolongar su vida útil.
-                  p.mb-0 La fruta firme (no madura) se conserva adecuadamente entre 4 °C y 7 °C, mientras que la fruta madura lista para consumo debe mantenerse entre 2 °C y 4 °C. Temperaturas fuera de estos rangos pueden provocar daños por frío o acelerar procesos fisiológicos indeseados como el ablandamiento excesivo o la proliferación de hongos.
+                  p.mb-0 El aguacate debe almacenarse a temperaturas controladas para conservar su firmeza, evitar la maduración prematura y prolongar su vida útil. La fruta firme (no madura) se conserva adecuadamente entre 4 °C y 7 °C, mientras que la fruta madura lista para consumo debe mantenerse entre 2 °C y 4 °C. Temperaturas fuera de estos rangos pueden provocar daños por frío o acelerar procesos fisiológicos indeseados como el ablandamiento excesivo o la proliferación de hongos.
                 .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema_4/img_5.png', class="img-fluid")
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-6.order-2.order-lg-1.mb-0
                   h5.mb-1 Humedad relativa
-                  p.mb-0 Mantener una humedad relativa entre el 85 % y el 90 % es esencial para prevenir la deshidratación del fruto durante el almacenamiento.
-                  p.mb-0 Un ambiente muy seco provoca pérdida de peso, arrugamiento de la piel y disminución del valor comercial.
-                  p.mb-0 Por el contrario, una humedad excesiva sin ventilación adecuada puede favorecer el desarrollo de hongos.
-                  p.mb-0 Se recomienda monitorear constantemente con higrómetros y aplicar sistemas de humidificación si es necesario.
+                  p.mb-0 Mantener una humedad relativa entre el 85 % y el 90 % es esencial para prevenir la deshidratación del fruto durante el almacenamiento. Un ambiente muy seco provoca pérdida de peso, arrugamiento de la piel y disminución del valor comercial. Por el contrario, una humedad excesiva sin ventilación adecuada puede favorecer el desarrollo de hongos. Se recomienda monitorear constantemente con higrómetros y aplicar sistemas de humidificación si es necesario.
                 .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema_4/img_6.png', class="img-fluid")
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-6.order-2.order-lg-1.mb-0
                   h5.mb-1 Ventilación
-                  p.mb-0 El almacenamiento del aguacate requiere ventilación continua y uniforme para permitir la renovación del aire, controlar la acumulación de gases como el etileno y evitar condiciones anaeróbicas que generen fermentación o mal olor.
-                  p.mb-0 Una buena circulación del aire contribuye a mantener temperaturas homogéneas en toda la cámara, previene focos de condensación y reduce el riesgo de contaminación cruzada entre los frutos.
+                  p.mb-0 El almacenamiento del aguacate requiere ventilación continua y uniforme para permitir la renovación del aire, controlar la acumulación de gases como el etileno y evitar condiciones anaeróbicas que generen fermentación o mal olor. Una buena circulación del aire contribuye a mantener temperaturas homogéneas en toda la cámara, previene focos de condensación y reduce el riesgo de contaminación cruzada entre los frutos.
                 .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema_4/img_7.png', class="img-fluid")
         .col-12.col-lg-10.mb-3
           .row.justify-content-center.align-items-center.mb-3
             .col-12.col-lg-10.order-2.order-lg-1
-              p.mb-0 El transporte del aguacate es una etapa clave en la cadena poscosecha, ya que de su correcta ejecución depende la conservación de la calidad física y fisiológica del fruto hasta su destino final.
-              p.mb-0 Este proceso debe realizarse en vehículos adecuados, con superficies internas limpias, sin residuos ni contaminantes, y preferiblemente dotados con aislamiento térmico o sistemas de refrigeración, especialmente en recorridos largos o bajo temperaturas ambientales elevadas.
+              p.mb-0 El transporte del aguacate es una etapa clave en la cadena poscosecha, ya que de su correcta ejecución depende la conservación de la calidad física y fisiológica del fruto hasta su destino final. Este proceso debe realizarse en vehículos adecuados, con superficies internas limpias, sin residuos ni contaminantes, y preferiblemente dotados con aislamiento térmico o sistemas de refrigeración, especialmente en recorridos largos o bajo temperaturas ambientales elevadas.
             .col-9.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_4/img_8.svg', class="img-fluid")

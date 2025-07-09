@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Manejo del cultivo de aguacate, cosecha y postcosecha.',
+    Name: 'Manejo del cultivo de aguacate, cosecha y poscosecha.',
     Description:
       'Este componente desarrolla competencias para el manejo agronómico, tecnológico y comercial del aguacate, abordando desde la siembra hasta la poscosecha. Aplica buenas prácticas agrícolas, parámetros técnicos y criterios de calidad, permitiendo optimizar la productividad y responder a las exigencias del mercado nacional e internacional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -214,12 +214,12 @@ export default {
     {
       termino: 'Madurez fisiológica',
       significado:
-        'Punto óptimo en el que el fruto ha completado su desarrollo y puede iniciar su maduración postcosecha sin perder calidad.',
+        'Punto óptimo en el que el fruto ha completado su desarrollo y puede iniciar su maduración poscosecha sin perder calidad.',
     },
     {
       termino: 'Materia seca',
       significado:
-        'Porcentaje de sólidos del fruto, útil como indicador de madurez, especialmente en variedades como Hass (mínimo 21 %).',
+        'Porcentaje de sólidos del fruto, útil como indicador de madurez, especialmente en variedades como <i>Hass</i> (mínimo 21 %).',
     },
     {
       termino: 'Clasificación del fruto',
@@ -256,7 +256,7 @@ export default {
     },
     {
       referencia:
-        "Revista Mexicana de Fitotecnia. (2014). <i>Comportamiento postcosecha de frutos de aguacate 'Hass' almacenados y bajo atmósfera modificada.</i> Fitotecnia Mexicana, 37(3).",
+        "Revista Mexicana de Fitotecnia. (2014). <i>Comportamiento poscosecha de frutos de aguacate 'Hass' almacenados y bajo atmósfera modificada.</i> Fitotecnia Mexicana, 37(3).",
       link: 'https://revistafitotecniamexicana.org/documentos/37-3/7a.pdf',
     },
     {

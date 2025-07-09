@@ -1,1 +1,1 @@
-module.exports = 'Manejo del cultivo de aguacate, cosecha y postcosecha.'
+module.exports = 'Manejo del cultivo de aguacate, cosecha y poscosecha.'

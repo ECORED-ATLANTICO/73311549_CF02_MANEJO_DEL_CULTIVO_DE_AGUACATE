@@ -7,12 +7,7 @@
         figure.w-100.d-flex.flex-column
           img(src='@/assets/curso/sintesis/img_1.png', class="img-fluid").height-100  
       .col-12.col-lg-9
-        p.mb-0 El componente formativo “Manejo del cultivo de aguacate, cosecha y poscosecha” permite comprender los procesos técnicos del cultivo de aguacate, desde su establecimiento en campo hasta su transporte.
-        p.mb-0 Se inicia con el estudio de los criterios para la selección y preparación del lote, así como su adecuación física y nutricional.
-        p.mb-0 Posteriormente, se profundiza en el manejo agronómico, lo que permite establecer su importancia en el desarrollo del cultivo mediante labores culturales, fertilización y manejo integrado de plagas y enfermedades (MIPE).
-        p.mb-0 Asimismo, se analizan los procesos de cosecha, proporcionando herramientas para determinar el punto de madurez y aplicar técnicas de recolección que conserven la calidad del fruto.
-        p.mb-0 Se presentan prácticas que influyen en la manipulación en campo, así como en el empaque y clasificación. La documentación aborda los componentes de la poscosecha, incluyendo almacenamiento, transporte y trazabilidad.
-        p.mb-0 Para fortalecer la aplicación de estos conceptos, se detallan aspectos logísticos y fitosanitarios. Finalmente, se analiza la relación entre buenas prácticas agrícolas, calidad comercial y sostenibilidad.
+        p.mb-0 El componente formativo “Manejo del cultivo de aguacate, cosecha y poscosecha” permite comprender los procesos técnicos del cultivo de aguacate, desde su establecimiento en campo hasta su transporte. Se inicia con el estudio de los criterios para la selección y preparación del lote, así como su adecuación física y nutricional. Posteriormente, se profundiza en el manejo agronómico, lo que permite establecer su importancia en el desarrollo del cultivo mediante labores culturales, fertilización y manejo integrado de plagas y enfermedades (MIPE). Asimismo, se analizan los procesos de cosecha, proporcionando herramientas para determinar el punto de madurez y aplicar técnicas de recolección que conserven la calidad del fruto. Se presentan prácticas que influyen en la manipulación en campo, así como en el empaque y clasificación. La documentación aborda los componentes de la poscosecha, incluyendo almacenamiento, transporte y trazabilidad. Para fortalecer la aplicación de estos conceptos, se detallan aspectos logísticos y fitosanitarios. Finalmente, se analiza la relación entre buenas prácticas agrícolas, calidad comercial y sostenibilidad.
     .row.justify-content-center
       .col-12.col-lg-12.mb-5.bgs.p-4.brad
         figure
