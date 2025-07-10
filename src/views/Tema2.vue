@@ -138,27 +138,29 @@
         .col-12.col-lg-10.mb-3 
             p.mb-5 En el cultivo de aguacate, el MIPE es obligatorio para garantizar la sostenibilidad, prevenir residuos de agroquímicos en el fruto y cumplir con certificaciones de Buenas Prácticas Agrícolas (BPA) y normas internacionales de exportación. Su implementación se basa en cinco pilares fundamentales:
 
-    .row.d-flex.align-items-start.justify-content-center.mb-3
-      .col-12.col-lg-6.order-2.order-lg-1.mb-lg-0.mb-3
-        LineaTiempoD.color-adicional-3
-          .row(numero="1" titulo="Monitoreo")
-            .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
-          .row(numero="2" titulo="Umbrales de acción")
-            .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos. Esto evita aplicaciones innecesarias.
-          .row(numero="3" titulo="Control biológico")
-            .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 Uso de organismos benéficos como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias como <I>Bacillus thuringiensis</I> que controlan plagas sin afectar el ambiente.
-          .row(numero="4" titulo="Control cultural")
-            .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 Incluye prácticas como podas sanitarias, manejo de coberturas vegetales, eliminación de residuos de cosecha, rotación de cultivos o barreras vivas que dificulten el ingreso de insectos.
-          .row(numero="5" titulo="Uso racional de agroquímicos")
-            .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0 Cuando es necesario aplicar insecticidas, se eligen productos de categoría toxicológica baja (III y IV), respetando los periodos de carencia y reentrada. Se recomienda alternar principios activos para evitar resistencia.
-      .col-7.col-lg-4.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
-        figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
-          img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid ")
+    
+    .row.d-flex.align-items-start.justify-content-center.mb-5(data-aos="zoom-in")
+        .col-12.col-lg-6.order-2.order-lg-1.mb-lg-0.mb-3
+          LineaTiempoD.color-adicional-3
+            .row(numero="1" titulo="Monitoreo")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
+            .row(numero="2" titulo="Umbrales de acción")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos. Esto evita aplicaciones innecesarias.
+            .row(numero="3" titulo="Control biológico")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Uso de organismos benéficos como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias como <I>Bacillus thuringiensis</I> que controlan plagas sin afectar el ambiente.
+            .row(numero="4" titulo="Control cultural")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Incluye prácticas como podas sanitarias, manejo de coberturas vegetales, eliminación de residuos de cosecha, rotación de cultivos o barreras vivas que dificulten el ingreso de insectos.
+            .row(numero="5" titulo="Uso racional de agroquímicos")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small.mb-0 Cuando es necesario aplicar insecticidas, se eligen productos de categoría toxicológica baja (III y IV), respetando los periodos de carencia y reentrada. Se recomienda alternar principios activos para evitar resistencia.
+        .col-10.col-lg-4.d-flex.order-1.order-lg-2.mb-lg-0.mb-3
+          figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+            img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid h-100")
+
 </template>
 
 <script>
