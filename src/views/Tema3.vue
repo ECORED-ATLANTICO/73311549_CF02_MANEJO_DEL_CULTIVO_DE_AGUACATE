@@ -33,6 +33,7 @@
         .col-12.col-lg-5.mb-3.d-flex
           .w-100.d-flex.flex-column.h-100
             .tarjeta.color-primario.d-flex.flex-column.h-100
+              h2.text-center.p-3 Madurez
               figure.mb-0
                 img(src="@/assets/curso/temas/tema_3/img_3.png", class="img-fluid w-100")
               .flex-grow-1.d-flex.flex-column
@@ -41,6 +42,7 @@
         .col-12.col-lg-5.mb-3.d-flex
           .w-100.d-flex.flex-column.h-100
             .tarjeta.color-terciario.d-flex.flex-column.h-100
+              h2.text-center.p-3 Recolección
               figure.mb-0
                 img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid w-100")
               .flex-grow-1.d-flex.flex-column

@@ -138,7 +138,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF02_73311549_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -207,9 +207,9 @@ export default {
         'Corte de ramas en los primeros años del árbol para estructurar una copa equilibrada, mejorar la aireación y facilitar el manejo.',
     },
     {
-      termino: 'MIPE',
+      termino: 'MIPE - Manejo Integrado de Plagas y Enfermedades',
       significado:
-        'Manejo Integrado de Plagas y Enfermedades: estrategia que combina métodos biológicos, culturales y químicos para mantener el control fitosanitario sostenible.',
+        'Estrategia que combina métodos biológicos, culturales y químicos para mantener el control fitosanitario sostenible.',
     },
     {
       termino: 'Madurez fisiológica',
@@ -301,6 +301,11 @@ export default {
           cargo: 'Evaluador Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
+        {
+          nombre: 'Jair Coll',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
       ],
     },
     {
@@ -308,9 +313,8 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador web',
-          centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+          cargo: 'Diseñador <i>web</i>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Alexander Donado Molinares',
