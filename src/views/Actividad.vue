@@ -20,7 +20,7 @@ export default {
       tema: 'Manejo técnico del aguacate',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Verificar la comprensión de los conceptos fundamentales relacionados con el establecimiento, manejo agronómico, cosecha, poscosecha y comercialización del aguacate.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con el establecimiento, manejo agronómico, cosecha, poscosecha y comercialización del aguacate.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',

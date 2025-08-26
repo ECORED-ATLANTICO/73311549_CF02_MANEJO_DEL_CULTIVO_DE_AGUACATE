@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Manejo del cultivo de aguacate, cosecha y poscosecha.',
+    Name: 'Manejo del cultivo de aguacate, cosecha y poscosecha',
     Description:
       'Este componente desarrolla competencias para el manejo agronómico, tecnológico y comercial del aguacate, abordando desde la siembra hasta la poscosecha. Aplica buenas prácticas agrícolas, parámetros técnicos y criterios de calidad, permitiendo optimizar la productividad y responder a las exigencias del mercado nacional e internacional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),

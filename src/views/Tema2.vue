@@ -141,7 +141,7 @@
           LineaTiempoD.color-adicional-3
             .row(numero="1" titulo="Monitoreo")
               .col-md-12.mb-4.mb-md-0
-                p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, trips, escamas, barrenadores o moscas. Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
+                p.text-small.mb-0 Observación sistemática para detectar poblaciones de plagas como ácaros, <i>trips</i>, escamas, barrenadores o moscas. Se recomienda establecer parcelas testigo y registrar las condiciones que favorecen su aparición.
             .row(numero="2" titulo="Umbrales de acción")
               .col-md-12.mb-4.mb-md-0
                 p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos. Esto evita aplicaciones innecesarias.
