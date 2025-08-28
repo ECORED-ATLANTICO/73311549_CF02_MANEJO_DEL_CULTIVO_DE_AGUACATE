@@ -256,7 +256,7 @@ export default {
     },
     {
       referencia:
-        "Revista Mexicana de Fitotecnia. (2014). <i>Comportamiento poscosecha de frutos de aguacate 'Hass' almacenados y bajo atmósfera modificada.</i> Fitotecnia Mexicana, 37(3).",
+        "Revista Mexicana de Fitotecnia. (2014). <i>Comportamiento postcosecha de frutos de aguacate 'Hass' almacenados y bajo atmósfera modificada.</i> Fitotecnia Mexicana, 37(3).",
       link: 'https://revistafitotecniamexicana.org/documentos/37-3/7a.pdf',
     },
     {
