@@ -298,7 +298,7 @@ export default {
         },
         {
           nombre: 'Heydy Cristina González García',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -313,7 +313,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador <i>web</i>',
+          cargo: 'Diseñadora <i>web</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -333,12 +333,12 @@ export default {
       autores: [
         {
           nombre: 'María Fernanda Morales Angulo',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles ',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

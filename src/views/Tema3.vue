@@ -72,7 +72,7 @@
                 p.text-small.mb-0 Durante el acopio inicial, descarta frutos con daños visibles como picaduras de insectos, deformaciones, necrosis o presencia de hongos. Esta selección evita pérdidas posteriores, reduce la carga microbiana y mejora la eficiencia en la planta de poscosecha.
             .row(numero="2" titulo="Acondicionamiento del fruto")
               .col-md-12.mb-4.mb-md-0
-                p.text-small.mb-0 Ubica los frutos seleccionados en canastillas plásticas limpias, ventiladas, sin sobrepasar cuatro capas ni 20 kg por unidad. Las canastillas deben ser lisas, resistentes, fáciles de lavar y con dimensiones estandarizadas para facilitar el transporte.
+                p.text-small.mb-0 Ubica los frutos seleccionados en canastillas plásticas limpias y ventiladas, sin sobrepasar cuatro capas ni 20 kg por unidad. Las canastillas deben ser lisas, resistentes, fáciles de lavar y con dimensiones estandarizadas para facilitar el transporte.
             .row(numero="3" titulo="Condiciones del acopio")
               .col-md-12.mb-4.mb-md-0
                 p.text-small.mb-0 Evita que el fruto toque el suelo. Ubica las canastillas en áreas sombreadas, ventiladas y limpias, protegidas de animales, lluvia o contaminantes. Mantén el tiempo entre la recolección y el ingreso a planta lo más corto posible.

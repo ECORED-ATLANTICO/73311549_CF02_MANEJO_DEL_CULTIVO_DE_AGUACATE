@@ -25,7 +25,7 @@
           figure
             img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .col-12.col-lg-10.mb-5
-          p.mb-0 Durante los primeros meses del establecimiento del cultivo, las plantas son vulnerables a factores climáticos como el viento, así como a interferencias con otras especies vegetales (arverses) que compiten por agua, luz y nutrientes. Por eso, es fundamental realizar labores culturales oportunas que contribuyan a la formación estructural de los árboles, al mejoramiento del suelo y a la prevención de problemas sanitarios.
+          p.mb-0 Durante los primeros meses del establecimiento del cultivo, las plantas son vulnerables a factores climáticos como el viento, así como a interferencias con otras especies vegetales (arvenses) que compiten por agua, luz y nutrientes. Por eso, es fundamental realizar labores culturales oportunas que contribuyan a la formación estructural de los árboles, al mejoramiento del suelo y a la prevención de problemas sanitarios.
         
         .col-12.col-lg-10.mb-0(data-aos="fade-up-right")
           .tarjeta.tarjeta--fondo__slider.p-4
@@ -147,7 +147,7 @@
                 p.text-small.mb-0 No se debe intervenir con químicos hasta que las poblaciones de plaga superen los niveles económicamente dañinos. Esto evita aplicaciones innecesarias.
             .row(numero="3" titulo="Control biológico")
               .col-md-12.mb-4.mb-md-0
-                p.text-small.mb-0 Uso de organismos benéficos como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias como <I>Bacillus thuringiensis</I> que controlan plagas sin afectar el ambiente.
+                p.text-small.mb-0 Uso de organismos benéficos, como hongos entomopatógenos (<I>Beauveria bassiana, Metarhizium anisopliae</I>), avispas parasitoides o bacterias, como <I>Bacillus thuringiensis</I>, que controlan plagas sin afectar el ambiente.
             .row(numero="4" titulo="Control cultural")
               .col-md-12.mb-4.mb-md-0
                 p.text-small.mb-0 Incluye prácticas como podas sanitarias, manejo de coberturas vegetales, eliminación de residuos de cosecha, rotación de cultivos o barreras vivas que dificulten el ingreso de insectos.
