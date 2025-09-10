@@ -75,93 +75,93 @@
         p.mb-0 Antes de ejecutar la siembra del aguacate, es fundamental llevar a cabo una secuencia de acciones técnicas que garanticen el acondicionamiento adecuado del lote. Estas acciones permiten optimizar las condiciones físicas, químicas e hídricas del suelo, y establecer de manera precisa la ubicación de cada planta dentro del sistema productivo. Para ello, se debe considerar la preparación mecánica del terreno, la disponibilidad y calidad del agua para riego, así como el trazado estratégico del lote de acuerdo con la topografía y el recorrido solar.
         p.mb-0 A continuación, se exploran tres aspectos clave que conforman esta etapa fundamental:
     
-    .bg_img_2.mb-3
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10
-          ImagenInfografica.time-line-info.pulso-invertido
-            template(v-slot:imagen)
-              figure(data-aos="fade-up-right")
-                img(src='@/assets/curso/temas/tema_1/img_8.png')
 
-            .tarjeta.color-adicional-1(x="18%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-              .numero-etiqueta 1
-              .h5.mb-3 Labores de preparación del terreno
-              p.mb-0 El terreno debe ser acondicionado con labores mecánicas que mejoren su estructura. Se inicia con el desmonte y subsolado para romper capas compactadas, seguido de arado y rastrillado para aflojar el suelo y nivelar la superficie. Esto permite una mejor infiltración del agua y facilita el crecimiento radicular uniforme.
-            .tarjeta.color-adicional-1(x="48.6%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-              .numero-etiqueta 2
-              .h5.mb-3 Disponibilidad de agua
-              p.mb-0 El lote debe contar con acceso continuo a una fuente de agua limpia, ya sea superficial o subterránea. Esta disponibilidad es clave en el establecimiento, floración y llenado del fruto.  Se recomienda analizar la calidad del agua para evitar problemas de salinidad o acumulación de sodio en el suelo.
-            .tarjeta.color-adicional-1(x="80.2%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-              .numero-etiqueta 3
-              .h5.mb-3 Trazado del lote
-              p.mb-0 Antes de sembrar, se marcan los sitios donde irá cada planta, teniendo en cuenta la pendiente y la dirección del sol. El trazado puede ser cuadrado, triangular o en curvas de nivel, según el terreno. Esta labor define el orden, la densidad y la eficiencia en el uso del espacio y la luz.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-10
+        ImagenInfografica.time-line-info.pulso-invertido
+          template(v-slot:imagen)
+            figure(data-aos="fade-up-right")
+              img(src='@/assets/curso/temas/tema_1/img_8.png')
 
-      separador
-        
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10
-          #t_1_2.titulo-segundo.color-acento-contenido
-            .h2(data-aos="zoom-int") 1.2  Siembra y distancias 
-          .mb-3
+          .tarjeta.color-adicional-1(x="18%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .numero-etiqueta 1
+            .h5.mb-3 Labores de preparación del terreno
+            p.mb-0 El terreno debe ser acondicionado con labores mecánicas que mejoren su estructura. Se inicia con el desmonte y subsolado para romper capas compactadas, seguido de arado y rastrillado para aflojar el suelo y nivelar la superficie. Esto permite una mejor infiltración del agua y facilita el crecimiento radicular uniforme.
+          .tarjeta.color-adicional-1(x="48.6%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .numero-etiqueta 2
+            .h5.mb-3 Disponibilidad de agua
+            p.mb-0 El lote debe contar con acceso continuo a una fuente de agua limpia, ya sea superficial o subterránea. Esta disponibilidad es clave en el establecimiento, floración y llenado del fruto.  Se recomienda analizar la calidad del agua para evitar problemas de salinidad o acumulación de sodio en el suelo.
+          .tarjeta.color-adicional-1(x="80.2%" y="48%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .numero-etiqueta 3
+            .h5.mb-3 Trazado del lote
+            p.mb-0 Antes de sembrar, se marcan los sitios donde irá cada planta, teniendo en cuenta la pendiente y la dirección del sol. El trazado puede ser cuadrado, triangular o en curvas de nivel, según el terreno. Esta labor define el orden, la densidad y la eficiencia en el uso del espacio y la luz.
 
-          p.mb-5 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo. El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
-      .row.d-flex.align-items-start.justify-content-center.mb-3
-        .col-12.col-lg-6.order-2.order-lg-1.mb-3
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
-            div(titulo="Época  de siembra")
-              p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado.  Esto garantiza que las plántulas reciban la humedad necesaria para su adaptación y minimiza el estrés hídrico. En zonas con climas bimodales, se recomienda planificar la siembra a comienzos del primer semestre.
-            div(titulo="Tipo de material vegetal")
-              p.ps-5.mb-0 Se utilizan plántulas injertadas entre 60 y 120 cm de altura, provenientes de viveros certificados. El injerto debe estar bien soldado, con brotes vigorosos, sistema radicular sano y libre de plagas o enfermedades. La bolsa plástica debe retirarse con cuidado para no dañar las raíces; se recomienda hacer un corte inferior y deslizar hacia arriba.
-            div(titulo="Ahoyado y trasplante")
-              p.ps-5.mb-0 Los hoyos deben abrirse con al menos 30 días de anticipación y tener dimensiones mínimas de 40 cm de ancho por 50 cm de profundidad. Se deben llenar con una mezcla de tierra fértil, materia orgánica y enmiendas como fosfato diamónico o cal dolomita, según el análisis de suelo.
-              p.ps-5.mb-0 El árbol se planta de forma que el cuello de la raíz quede ligeramente por encima del nivel del suelo.  El hueco se rellena con tierra fina y se compacta ligeramente para evitar bolsas de aire. Se debe dejar un montículo de 10 cm alrededor del tallo para evitar acumulación de agua. Se finaliza con un riego de asentamiento y, de ser posible, se coloca cobertura vegetal seca (<I>mulch</I>).
-            div(titulo="Distancias de siembra")
-              p.ps-5.mb-0 El marco de siembra más utilizado es de 7 X 7 metros, equivalente a 204 árboles por hectárea. Esta densidad permite un adecuado equilibrio entre penetración de luz, desarrollo radicular y manejo sanitario. En suelos fértiles o con riego, se pueden usar distancias menores (6 X 6 m), mientras que en terrenos de ladera o con baja fertilidad, se prefieren marcos de 8 X 8 o 9 X 9 m para reducir la competencia.
+    separador
+      
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-10
+        #t_1_2.titulo-segundo.color-acento-contenido
+          .h2(data-aos="zoom-int") 1.2  Siembra y distancias 
+        .mb-3
 
-        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3
-          figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
-            img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid ")
-        
+        p.mb-5 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo. El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
+    .row.d-flex.align-items-start.justify-content-center.mb-3
+      .col-12.col-lg-6.order-2.order-lg-1.mb-3
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-5")
+          div(titulo="Época  de siembra")
+            p.ps-5.mb-0 La siembra debe realizarse al inicio de la temporada de lluvias o con un sistema de riego instalado.  Esto garantiza que las plántulas reciban la humedad necesaria para su adaptación y minimiza el estrés hídrico. En zonas con climas bimodales, se recomienda planificar la siembra a comienzos del primer semestre.
+          div(titulo="Tipo de material vegetal")
+            p.ps-5.mb-0 Se utilizan plántulas injertadas entre 60 y 120 cm de altura, provenientes de viveros certificados. El injerto debe estar bien soldado, con brotes vigorosos, sistema radicular sano y libre de plagas o enfermedades. La bolsa plástica debe retirarse con cuidado para no dañar las raíces; se recomienda hacer un corte inferior y deslizar hacia arriba.
+          div(titulo="Ahoyado y trasplante")
+            p.ps-5.mb-0 Los hoyos deben abrirse con al menos 30 días de anticipación y tener dimensiones mínimas de 40 cm de ancho por 50 cm de profundidad. Se deben llenar con una mezcla de tierra fértil, materia orgánica y enmiendas como fosfato diamónico o cal dolomita, según el análisis de suelo.
+            p.ps-5.mb-0 El árbol se planta de forma que el cuello de la raíz quede ligeramente por encima del nivel del suelo.  El hueco se rellena con tierra fina y se compacta ligeramente para evitar bolsas de aire. Se debe dejar un montículo de 10 cm alrededor del tallo para evitar acumulación de agua. Se finaliza con un riego de asentamiento y, de ser posible, se coloca cobertura vegetal seca (<I>mulch</I>).
+          div(titulo="Distancias de siembra")
+            p.ps-5.mb-0 El marco de siembra más utilizado es de 7 X 7 metros, equivalente a 204 árboles por hectárea. Esta densidad permite un adecuado equilibrio entre penetración de luz, desarrollo radicular y manejo sanitario. En suelos fértiles o con riego, se pueden usar distancias menores (6 X 6 m), mientras que en terrenos de ladera o con baja fertilidad, se prefieren marcos de 8 X 8 o 9 X 9 m para reducir la competencia.
 
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-10.mb-3
-          p.mb-5 A continuación, se presenta una tabla orientativa de densidad de siembra que permite estimar el número de árboles por hectárea según el marco de plantación seleccionado.  La elección de la distancia depende del vigor del patrón, la fertilidad del suelo y las condiciones topográficas del lote.  Esta información facilita la planificación eficiente del cultivo y el manejo agronómico futuro.
-        
-        .col-12.col-lg-10
-          .titulo-sexto.color-acento-contenido
-            h5 Tabla 1.
-            |  Distribución orientativa de densidad de siembra.
-          .tabla-a.mb-5
-            table
-              caption 
-                p <b>Fuente:</b> SENA, 2025.
-              thead
-                tr
-                  th Distancia (m)
-                  th Tipo de patrón
-                  th Árboles/ ha (cuadrado)
-                  th Árboles/ ha (triángulo)
-              tbody
-                tr.bg-table-01
-                  td 6 X 6
-                  td Alto vigor
-                  td 278
-                  td 321
-                tr.bg-table-02
-                  td 7 X 7
-                  td Medio vigor
-                  td 204
-                  td 236
-                tr.bg-table-01
-                  td 8 X 8
-                  td Alto vigor
-                  td 156
-                  td 180
-                tr.bg-table-02
-                  td 9 X 9
-                  td Bajo vigor
-                  td 123
-                  td 142
+      .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3
+        figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+          img(src='@/assets/curso/temas/tema_1/img_9.png', class="img-fluid ")
+      
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-10.mb-3
+        p.mb-5 A continuación, se presenta una tabla orientativa de densidad de siembra que permite estimar el número de árboles por hectárea según el marco de plantación seleccionado.  La elección de la distancia depende del vigor del patrón, la fertilidad del suelo y las condiciones topográficas del lote.  Esta información facilita la planificación eficiente del cultivo y el manejo agronómico futuro.
+      
+      .col-12.col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1.
+          |  Distribución orientativa de densidad de siembra.
+        .tabla-a.mb-5
+          table
+            caption 
+              p <b>Fuente:</b> SENA, 2025.
+            thead
+              tr
+                th Distancia (m)
+                th Tipo de patrón
+                th Árboles/ ha (cuadrado)
+                th Árboles/ ha (triángulo)
+            tbody
+              tr.bg-table-01
+                td 6 X 6
+                td Alto vigor
+                td 278
+                td 321
+              tr.bg-table-02
+                td 7 X 7
+                td Medio vigor
+                td 204
+                td 236
+              tr.bg-table-01
+                td 8 X 8
+                td Alto vigor
+                td 156
+                td 180
+              tr.bg-table-02
+                td 9 X 9
+                td Bajo vigor
+                td 123
+                td 142
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0
       .bloque-texto-t__img.mb-0
