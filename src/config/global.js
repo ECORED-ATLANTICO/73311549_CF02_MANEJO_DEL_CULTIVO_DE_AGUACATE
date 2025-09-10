@@ -241,7 +241,8 @@ export default {
     {
       referencia:
         'Moreno Henao, J. M. (2020). <i>Buenas prácticas poscosecha del aguacate </i>(Persea americana Mill.).<br>Gobernación del Tolima & SENA. ',
-      link: 'https://www.redalyc.org/pdf/1698/169818107001.pdf',
+      link:
+        'https://www.researchgate.net/publication/340996756_Buenas_Practicas_Poscosecha_Aguacate_Persea_americana_Mill',
     },
     {
       referencia:

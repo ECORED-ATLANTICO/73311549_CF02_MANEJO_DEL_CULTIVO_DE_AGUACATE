@@ -101,7 +101,7 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10
           #t_1_2.titulo-segundo.color-acento-contenido
-            .h2(data-aos="fade-right") 1.2  Siembra y distancias 
+            .h2(data-aos="zoom-int") 1.2  Siembra y distancias 
           .mb-3
 
           p.mb-5 La siembra es una actividad técnica que requiere cuidado, precisión y conocimiento del comportamiento de las plántulas en campo. El éxito de esta labor determina en gran medida la uniformidad de la plantación, el crecimiento inicial y la futura arquitectura del árbol.
