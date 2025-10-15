@@ -22,8 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con el establecimiento, manejo agronómico, cosecha, poscosecha y comercialización del aguacate.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
